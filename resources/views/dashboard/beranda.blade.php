@@ -1,3 +1,5 @@
+@extends('patrials.main')
+@section('container')
 <div id="main">
     {{-- Hamburger Starts --}}
     <header class="mb-3">
@@ -90,4 +92,4 @@
     </div>
     <!-- Beranda berakhir disini -->
 </div>
-
+@endsection

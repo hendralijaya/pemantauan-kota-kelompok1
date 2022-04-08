@@ -13,7 +13,7 @@ class DashboardWebsiteController extends Controller
      */
     public function index()
     {
-        return view('welcome',['title' => 'Welcome to the  Website']);
+        return view('dashboard.beranda',['title' => 'Welcome to the  Website']);
     }
 
     public function petaJumlahPenduduk()
@@ -31,64 +31,19 @@ class DashboardWebsiteController extends Controller
         return view('peta.jumlahpendudukmiskin.jumlahpendudukmiskin', ['title' => 'Peta Jumlah Penduduk Miskin di Jawa Barat Tahun 2017 - 2020']);
     }
 
-    public function visualisasiJumlahPenduduk2017()
+    public function visualisasiJumlahPenduduk()
     {
-        return view();
+        return view('visualisasi.jumlahpenduduk.jumlahpenduduk', ['title' => 'Visualisasi Jumlah Penduduk di Jawa Barat Tahun 2017 - 2020']);
     }
 
-    public function visualisasiJumlahPengangguran2017()
+    public function visualisasiJumlahPengangguran()
     {
-        return view();
+        return view('visualisasi.jumlahpengangguran.jumlahpengangguran', ['title' => 'Visualisasi Jumlah Pengangguran di Jawa Barat Tahun 2017 - 2020']);
     }
 
-    public function visualisasiJumlahPendudukMiskin2017()
+    public function visualisasiJumlahPendudukMiskin()
     {
-        return view();
-    }
-
-    public function visualisasiJumlahPenduduk2018()
-    {
-        return view();
-    }
-
-    public function visualisasiJumlahPengangguran2018()
-    {
-        return view();
-    }
-
-    public function visualisasiJumlahPendudukMiskin2018()
-    {
-        return view();
-    }
-
-    public function visualisasiJumlahPenduduk2019()
-    {
-        return view();
-    }
-
-    public function visualisasiJumlahPengangguran2019()
-    {
-        return view();
-    }
-
-    public function visualisasiJumlahPendudukMiskin2019()
-    {
-        return view();
-    }
-
-    public function visualisasiJumlahPenduduk2020()
-    {
-        return view();
-    }
-
-    public function visualisasiJumlahPengangguran2020()
-    {
-        return view();
-    }
-
-    public function visualisasiJumlahPendudukMiskin2020()
-    {
-        return view();
+        return view('visualisasi.jumlahpendudukmiskin.jumlahpendudukmiskin', ['title' => 'Visualisasi Jumlah Penduduk Miskin di Jawa Barat Tahun 2017 - 2020']);
     }
 
     public function kesimpulan()
