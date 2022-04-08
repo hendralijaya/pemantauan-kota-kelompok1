@@ -18,7 +18,7 @@ class DashboardWebsiteController extends Controller
 
     public function petaJumlahPenduduk2017()
     {
-        return view('welcome', ['title' => 'Peta Jumlah Penduduk 2017']);
+        return view('peta.jumlahpenduduk.2017', ['title' => 'Peta Jumlah Pengangguran 2017']);
     }
 
     public function petaJumlahPengangguran2017()
