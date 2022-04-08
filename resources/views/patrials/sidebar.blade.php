@@ -1,4 +1,4 @@
-<div id="sidebar" class="active">
+<div id="sidebar" class="active" style="background-color:rgb(238, 238, 238)">
     <div class="sidebar-wrapper active">
         <div class="sidebar-header">
             <div class="d-flex justify-content-between">
@@ -16,14 +16,14 @@
                 <li class="sidebar-title">Jawa Barat</li>
 
                 <li class="sidebar-item active ">
-                    <a href="{{ route('web.index') }}" class='sidebar-link'>
+                    <a href="index.html" class='sidebar-link'>
                         <i class="bi bi-grid-fill"></i>
                         <span>Beranda</span>
                     </a>
                 </li>
 
                 <li class="sidebar-item">
-                    <a href="{{ route('web.about') }}" class='sidebar-link'>
+                    <a href="tentang-kami.html" class='sidebar-link'>
                         <i class="bi bi-person-circle"></i>
                         <span>Tentang Kami</span>
                     </a>
@@ -35,65 +35,25 @@
                         <span>Peta</span>
                     </a>
                     <ul class="submenu">
-                        <li class="sidebar-item has-sub">
-                            <a href="#" class='sidebar-link'>
+                        <li class="submenu-item">
+                            <a href="peta-jumlah-penduduk.html" class='sidebar-link'>
                                 <i class="bi bi-people"></i>
-                                <span style="padding-right: 20px;">Jumlah Penduduk</span>
+                                <span>Jumlah Penduduk</span>
                             </a>
-                            <ul class="submenu ">
-                                <li class="submenu-item ">
-                                    <a href="{{ route('web.jumlahpenduduk2017') }}">2017</a>
-                                </li>
-                                <li class="submenu-item ">
-                                    <a href="{{ route('web.jumlahpenduduk2018') }}">2018</a>
-                                </li>
-                                <li class="submenu-item ">
-                                    <a href="{{ route('web.jumlahpenduduk2019') }}">2019</a>
-                                </li>
-                                <li class="submenu-item ">
-                                    <a href="{{ route('web.jumlahpenduduk2020') }}">2020</a>
-                                </li>
-                            </ul>
                         </li>
-                        <li class="sidebar-item has-sub">
-                            <a href="#" class='sidebar-link'>
+
+                        <li class="submenu-item">
+                            <a href="peta-jumlah-penduduk-miskin.html" class='sidebar-link'>
                                 <i class="bi bi-person-lines-fill"></i>
-                                <span style="padding-right: 20px;">Jumlah Penduduk Miskin</span>
+                                <span>Jumlah Penduduk Miskin</span>
                             </a>
-                            <ul class="submenu ">
-                                <li class="submenu-item ">
-                                    <a href="{{ route('web.jumlahpendudukmiskin2017') }}">2017</a>
-                                </li>
-                                <li class="submenu-item ">
-                                    <a href="{{ route('web.jumlahpendudukmiskin2018') }}">2018</a>
-                                </li>
-                                <li class="submenu-item ">
-                                    <a href="{{ route('web.jumlahpendudukmiskin2019') }}">2019</a>
-                                </li>
-                                <li class="submenu-item ">
-                                    <a href="{{ route('web.jumlahpendudukmiskin2020') }}">2020</a>
-                                </li>
-                            </ul>
                         </li>
-                        <li class="sidebar-item has-sub">
-                            <a href="#" class='sidebar-link'>
+
+                        <li class="submenu-item">
+                            <a href="peta-jumlah-pengangguran.html" class='sidebar-link'>
                                 <i class="bi bi-person-dash-fill"></i>
-                                <span style="padding-right: 20px;">Jumlah Pengangguran</span>
+                                <span>Jumlah Pengangguran</span>
                             </a>
-                            <ul class="submenu ">
-                                <li class="submenu-item ">
-                                    <a href="{{ route('web.jumlahpengangguran2017') }}">2017</a>
-                                </li>
-                                <li class="submenu-item ">
-                                    <a href="{{ route('web.jumlahpengangguran2018') }}">2018</a>
-                                </li>
-                                <li class="submenu-item ">
-                                    <a href="{{ route('web.jumlahpengangguran2019') }}">2019</a>
-                                </li>
-                                <li class="submenu-item ">
-                                    <a href="{{ route('web.jumlahpengangguran2020') }}">2020</a>
-                                </li>
-                            </ul>
                         </li>
                     </ul>
                 </li>
@@ -104,71 +64,31 @@
                         <span>Visualisasi</span>
                     </a>
                     <ul class="submenu">
-                        <li class="sidebar-item has-sub">
-                            <a href="#" class='sidebar-link'>
+                        <li class="submenu-item">
+                            <a href="visualisasi-jumlah-penduduk.html" class='sidebar-link'>
                                 <i class="bi bi-people"></i>
-                                <span style="padding-right: 20px;">Jumlah Penduduk</span>
+                                <span>Jumlah Penduduk</span>
                             </a>
-                            <ul class="submenu ">
-                                <li class="submenu-item ">
-                                    <a href="{{ route('web.visualisasijumlahpenduduk2017') }}">2017</a>
-                                </li>
-                                <li class="submenu-item ">
-                                    <a href="{{ route('web.visualisasijumlahpenduduk2018') }}">2018</a>
-                                </li>
-                                <li class="submenu-item ">
-                                    <a href="{{ route('web.visualisasijumlahpenduduk2019') }}">2019</a>
-                                </li>
-                                <li class="submenu-item ">
-                                    <a href="{{ route('web.visualisasijumlahpenduduk2020') }}">2020</a>
-                                </li>
-                            </ul>
                         </li>
-                        <li class="sidebar-item has-sub">
-                            <a href="#" class='sidebar-link'>
+
+                        <li class="submenu-item">
+                            <a href="visualisasi-jumlah-penduduk-miskin.html" class='sidebar-link'>
                                 <i class="bi bi-person-lines-fill"></i>
-                                <span style="padding-right: 20px;">Jumlah Penduduk Miskin</span>
+                                <span>Jumlah Penduduk Miskin</span>
                             </a>
-                            <ul class="submenu ">
-                                <li class="submenu-item ">
-                                    <a href="{{ route('web.visualisasijumlahpendudukmiskin2017') }}">2017</a>
-                                </li>
-                                <li class="submenu-item ">
-                                    <a href="{{ route('web.visualisasijumlahpendudukmiskin2018') }}">2018</a>
-                                </li>
-                                <li class="submenu-item ">
-                                    <a href="{{ route('web.visualisasijumlahpendudukmiskin2019') }}">2019</a>
-                                </li>
-                                <li class="submenu-item ">
-                                    <a href="{{ route('web.visualisasijumlahpendudukmiskin2020') }}">2020</a>
-                                </li>
-                            </ul>
                         </li>
-                        <li class="sidebar-item has-sub">
-                            <a href="#" class='sidebar-link'>
+
+                        <li class="submenu-item">
+                            <a href="visualisasi-jumlah-pengangguran.html" class='sidebar-link'>
                                 <i class="bi bi-person-dash-fill"></i>
-                                <span style="padding-right: 20px;">Jumlah Pengangguran</span>
+                                <span>Jumlah Pengangguran</span>
                             </a>
-                            <ul class="submenu ">
-                                <li class="submenu-item ">
-                                    <a href="{{ route('web.visualisasijumlahpengangguran2017') }}">2017</a>
-                                </li>
-                                <li class="submenu-item ">
-                                    <a href="{{ route('web.visualisasijumlahpengangguran2018') }}">2018</a>
-                                </li>
-                                <li class="submenu-item ">
-                                    <a href="{{ route('web.visualisasijumlahpengangguran2019') }}">2019</a>
-                                </li>
-                                <li class="submenu-item ">
-                                    <a href="{{ route('web.visualisasijumlahpengangguran2020') }}">2020</a>
-                                </li>
-                            </ul>
                         </li>
                     </ul>
                 </li>
 
                 <li class="sidebar-item">
-                    <a href="{{ route('web.kesimpulan') }}" class='sidebar-link'>
+                    <a href="form-layout.html" class='sidebar-link'>
                         <i class="bi bi-file-earmark-medical-fill"></i>
                         <span>Kesimpulan</span>
                     </a>
