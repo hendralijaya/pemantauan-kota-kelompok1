@@ -16,82 +16,122 @@ class DashboardWebsiteController extends Controller
         return view('welcome',['title' => 'Welcome to the  Website']);
     }
 
-    public function jumlahPenduduk2017()
+    public function petaJumlahPenduduk2017()
+    {
+        return view('welcome', ['title' => 'Peta Jumlah Penduduk 2017']);
+    }
+
+    public function petaJumlahPengangguran2017()
     {
         return view();
     }
 
-    public function jumlahpengangguran2017()
+    public function petaJumlahPendudukMiskin2017()
     {
         return view();
     }
 
-    public function jumlahpendudukmiskin2017()
+    public function petaJumlahPenduduk2018()
     {
         return view();
     }
 
-    public function jumlahpenduduk2018()
+    public function petaJumlahPengangguran2018()
     {
         return view();
     }
 
-    public function jumlahpengangguran2018()
+    public function petaJumlahPendudukMiskin2018()
     {
         return view();
     }
 
-    public function jumlahpendudukmiskin2018()
+    public function petaJumlahPenduduk2019()
     {
         return view();
     }
 
-    public function jumlahpenduduk2019()
+    public function petaJumlahPengangguran2019()
     {
         return view();
     }
 
-    public function jumlahpengangguran2019()
+    public function petaJumlahPendudukMiskin2019()
     {
         return view();
     }
 
-    public function jumlahpendudukmiskin2019()
+    public function petaJumlahPenduduk2020()
     {
         return view();
     }
 
-    public function jumlahpenduduk2020()
+    public function petaJumlahPengangguran2020()
     {
         return view();
     }
 
-    public function jumlahpengangguran2020()
+    public function petaJumlahPendudukMiskin2020()
     {
         return view();
     }
 
-    public function jumlahpendudukmiskin2020()
+    public function visualisasiJumlahPenduduk2017()
     {
         return view();
     }
 
-    public function visualisasi2017()
+    public function visualisasiJumlahPengangguran2017()
     {
         return view();
     }
 
-    public function visualisasi2018()
+    public function visualisasiJumlahPendudukMiskin2017()
     {
         return view();
     }
 
-    public function visualisasi2019()
+    public function visualisasiJumlahPenduduk2018()
     {
         return view();
     }
 
-    public function visualisasi2020()
+    public function visualisasiJumlahPengangguran2018()
+    {
+        return view();
+    }
+
+    public function visualisasiJumlahPendudukMiskin2018()
+    {
+        return view();
+    }
+
+    public function visualisasiJumlahPenduduk2019()
+    {
+        return view();
+    }
+
+    public function visualisasiJumlahPengangguran2019()
+    {
+        return view();
+    }
+
+    public function visualisasiJumlahPendudukMiskin2019()
+    {
+        return view();
+    }
+
+    public function visualisasiJumlahPenduduk2020()
+    {
+        return view();
+    }
+
+    public function visualisasiJumlahPengangguran2020()
+    {
+        return view();
+    }
+
+    public function visualisasiJumlahPendudukMiskin2020()
     {
         return view();
     }
