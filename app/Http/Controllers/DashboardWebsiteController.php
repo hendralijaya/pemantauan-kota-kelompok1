@@ -16,64 +16,19 @@ class DashboardWebsiteController extends Controller
         return view('welcome',['title' => 'Welcome to the  Website']);
     }
 
-    public function petaJumlahPenduduk2017()
+    public function petaJumlahPenduduk()
     {
-        return view('peta.jumlahpenduduk.2017', ['title' => 'Peta Jumlah Pengangguran 2017']);
+        return view('peta.jumlahpenduduk.jumlahpenduduk', ['title' => 'Peta Jumlah Pengangguran di Jawa Barat Tahun 2017 - 2020']);
     }
 
-    public function petaJumlahPengangguran2017()
+    public function petaJumlahPengangguran()
     {
-        return view();
+        return view('peta.jumlahpengangguran.jumlahpengangguran', ['title' => 'Peta Jumlah Pengangguran di Jawa Barat Tahun 2017 - 2020']);
     }
 
-    public function petaJumlahPendudukMiskin2017()
+    public function petaJumlahPendudukMiskin()
     {
-        return view();
-    }
-
-    public function petaJumlahPenduduk2018()
-    {
-        return view();
-    }
-
-    public function petaJumlahPengangguran2018()
-    {
-        return view();
-    }
-
-    public function petaJumlahPendudukMiskin2018()
-    {
-        return view();
-    }
-
-    public function petaJumlahPenduduk2019()
-    {
-        return view();
-    }
-
-    public function petaJumlahPengangguran2019()
-    {
-        return view();
-    }
-
-    public function petaJumlahPendudukMiskin2019()
-    {
-        return view();
-    }
-
-    public function petaJumlahPenduduk2020()
-    {
-        return view();
-    }
-
-    public function petaJumlahPengangguran2020()
-    {
-        return view();
-    }
-
-    public function petaJumlahPendudukMiskin2020()
-    {
-        return view();
+        return view('peta.jumlahpendudukmiskin.jumlahpendudukmiskin', ['title' => 'Peta Jumlah Penduduk Miskin di Jawa Barat Tahun 2017 - 2020']);
     }
 
     public function visualisasiJumlahPenduduk2017()

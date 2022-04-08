@@ -20,21 +20,9 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/',[DashboardWebsiteController::class, 'index'])->name('web.index');
 //PETA
-Route::get('/jumlahpenduduk2017', [DashboardWebsiteController::class, 'petaJumlahPenduduk2017'])->name('web.jumlahpenduduk2017');
-Route::get('/jumlahpengangguran2017', [DashboardWebsiteController::class, 'petaJumlahPengangguran2017'])->name('web.jumlahpengangguran2017');
-Route::get('/jumlahpendudukmiskin2017', [DashboardWebsiteController::class, 'petaJumlahPendudukMiskin2017'])->name('web.jumlahpendudukmiskin2017');
-
-Route::get('/jumlahpenduduk2018', [DashboardWebsiteController::class, 'petaJumlahPenduduk2018'])->name('web.jumlahpenduduk2018');
-Route::get('/jumlahpengangguran2018', [DashboardWebsiteController::class, 'petaJumlahPengangguran2018'])->name('web.jumlahpengangguran2018');
-Route::get('/jumlahpendudukmiskin2018', [DashboardWebsiteController::class, 'petaJumlahPendudukMiskin2018'])->name('web.jumlahpendudukmiskin2018');
-
-Route::get('/jumlahpenduduk2019', [DashboardWebsiteController::class, 'petaJumlahPenduduk2019'])->name('web.jumlahpenduduk2019');
-Route::get('/jumlahpengangguran2019', [DashboardWebsiteController::class, 'petaJumlahPengangguran2019'])->name('web.jumlahpengangguran2019');
-Route::get('/jumlahpendudukmiskin2019', [DashboardWebsiteController::class, 'petaJumlahPendudukMiskin2019'])->name('web.jumlahpendudukmiskin2019');
-
-Route::get('/jumlahpenduduk2020', [DashboardWebsiteController::class, 'petaJumlahPenduduk2020'])->name('web.jumlahpenduduk2020');
-Route::get('/jumlahpengangguran2020', [DashboardWebsiteController::class, 'petaJumlahPengangguran2020'])->name('web.jumlahpengangguran2020');
-Route::get('/jumlahpendudukmiskin2020', [DashboardWebsiteController::class, 'petaJumlahPendudukMiskin2020'])->name('web.jumlahpendudukmiskin2020');
+Route::get('/jumlahpenduduk',[DashboardWebsiteController::class, 'petaJumlahPenduduk'])->name('web.jumlahpenduduk');
+Route::get('/jumlahpengangguran',[DashboardWebsiteController::class, 'petaJumlahPengangguran'])->name('web.jumlahpengangguran');
+Route::get('/jumlahpendudukmiskin',[DashboardWebsiteController::class, 'petaJumlahPendudukMiskin'])->name('web.jumlahpendudukmiskin');
 
 //VISUALISASI
 

@@ -16,14 +16,14 @@
                 <li class="sidebar-title">Jawa Barat</li>
 
                 <li class="sidebar-item active ">
-                    <a href="index.html" class='sidebar-link'>
+                    <a href="{{ route('web.index') }}" class='sidebar-link'>
                         <i class="bi bi-grid-fill"></i>
                         <span>Beranda</span>
                     </a>
                 </li>
 
                 <li class="sidebar-item">
-                    <a href="tentang-kami.html" class='sidebar-link'>
+                    <a href="{{ route('web.about') }}" class='sidebar-link'>
                         <i class="bi bi-person-circle"></i>
                         <span>Tentang Kami</span>
                     </a>
@@ -36,21 +36,21 @@
                     </a>
                     <ul class="submenu">
                         <li class="submenu-item">
-                            <a href="peta-jumlah-penduduk.html" class='sidebar-link'>
+                            <a href="{{ route('web.jumlahpenduduk') }}" class='sidebar-link'>
                                 <i class="bi bi-people"></i>
                                 <span>Jumlah Penduduk</span>
                             </a>
                         </li>
 
                         <li class="submenu-item">
-                            <a href="peta-jumlah-penduduk-miskin.html" class='sidebar-link'>
+                            <a href="{{ route('web.jumlahpendudukmiskin') }}" class='sidebar-link'>
                                 <i class="bi bi-person-lines-fill"></i>
                                 <span>Jumlah Penduduk Miskin</span>
                             </a>
                         </li>
 
                         <li class="submenu-item">
-                            <a href="peta-jumlah-pengangguran.html" class='sidebar-link'>
+                            <a href="{{ route('web.jumlahpengangguran') }}" class='sidebar-link'>
                                 <i class="bi bi-person-dash-fill"></i>
                                 <span>Jumlah Pengangguran</span>
                             </a>
