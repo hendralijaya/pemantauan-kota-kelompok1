@@ -32,7 +32,7 @@
                 <li class="sidebar-item has-sub {{ Request::is('petajumlah*') ? '' : '' }}">
                     <a href="#" class='sidebar-link'>
                         <i class="bi bi-map"></i>
-                        <span>Peta</span>
+                        <span>Detail</span>
                     </a>
                     <ul class="submenu">
                         <li class="submenu-item {{ Request::is('petajumlah*') ? '' : '' }}">
@@ -55,33 +55,11 @@
                                 <span>Jumlah Pengangguran</span>
                             </a>
                         </li>
-                    </ul>
-                </li>
 
-                <li class="sidebar-item  has-sub">
-                    <a href="#" class='sidebar-link'>
-                        <i class="bi bi-graph-up"></i>
-                        <span>Visualisasi</span>
-                    </a>
-                    <ul class="submenu">
-                        <li class="submenu-item {{ Request::is('/visualisasijumlahpenduduk') ? 'active' : '' }}">
-                            <a href="{{ route('web.visualisasijumlahpenduduk') }}" class='sidebar-link'>
-                                <i class="bi bi-people"></i>
-                                <span>Jumlah Penduduk</span>
-                            </a>
-                        </li>
-
-                        <li class="submenu-item {{ Request::is('/visualisasijumlahpendudukmiskin') ? 'active' : '' }}">
-                            <a href="{{ route('web.visualisasijumlahpendudukmiskin') }}" class='sidebar-link'>
-                                <i class="bi bi-person-lines-fill"></i>
-                                <span>Jumlah Penduduk Miskin</span>
-                            </a>
-                        </li>
-
-                        <li class="submenu-item {{ Request::is('/visualisasijumlahpengangguran') ? 'active' : '' }}">
-                            <a href="{{ route('web.visualisasijumlahpengangguran') }}" class='sidebar-link'>
-                                <i class="bi bi-person-dash-fill"></i>
-                                <span>Jumlah Pengangguran</span>
+                        <li class="submenu-item">
+                            <a href="detail-jumlah-angka-harapan-hidup.html" class='sidebar-link'>
+                                <i class="bi bi-person-plus-fill"></i>
+                                <span>Angka Harapan Hidup</span>
                             </a>
                         </li>
                     </ul>
