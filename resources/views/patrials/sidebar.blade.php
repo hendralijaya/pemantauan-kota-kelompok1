@@ -3,7 +3,7 @@
         <div class="sidebar-header">
             <div class="d-flex justify-content-between">
                 <div class="logo">
-                    <a href="index.html"><img src="assets/images/logo/logo-pradita.png" alt="Logo" srcset="" style="width: 50%; margin-left:8px "></a>
+                    <img src="assets/images/logo/logo-pradita.png" alt="Logo" srcset="" style="width: 60%; height: 100%; margin-left:8px "></a>
                 </div>
                 <div class="toggler">
                     <a href="#" class="sidebar-hide d-xl-none d-block"><i class="bi bi-x bi-middle"></i></a>
@@ -15,41 +15,41 @@
             <ul class="menu">
                 <li class="sidebar-title">Jawa Barat</li>
 
-                <li class="sidebar-item active ">
+                <li class="sidebar-item {{ Request::is('beranda') ? 'active' : '' }}">
                     <a href="{{ route('web.index') }}" class='sidebar-link'>
                         <i class="bi bi-grid-fill"></i>
                         <span>Beranda</span>
                     </a>
                 </li>
 
-                <li class="sidebar-item">
+                <li class="sidebar-item {{ Request::is('tentang-kami') ? 'active' : '' }}">
                     <a href="{{ route('web.about') }}" class='sidebar-link'>
                         <i class="bi bi-person-circle"></i>
                         <span>Tentang Kami</span>
                     </a>
                 </li>
 
-                <li class="sidebar-item  has-sub">
+                <li class="sidebar-item has-sub {{ Request::is('petajumlah*') ? '' : '' }}">
                     <a href="#" class='sidebar-link'>
                         <i class="bi bi-map"></i>
                         <span>Peta</span>
                     </a>
                     <ul class="submenu">
-                        <li class="submenu-item">
+                        <li class="submenu-item {{ Request::is('petajumlah*') ? '' : '' }}">
                             <a href="{{ route('web.jumlahpenduduk') }}" class='sidebar-link'>
                                 <i class="bi bi-people"></i>
                                 <span>Jumlah Penduduk</span>
                             </a>
                         </li>
 
-                        <li class="submenu-item">
+                        <li class="submenu-item {{ Request::is('petajumlah*') ? '' : '' }}">
                             <a href="{{ route('web.jumlahpendudukmiskin') }}" class='sidebar-link'>
                                 <i class="bi bi-person-lines-fill"></i>
                                 <span>Jumlah Penduduk Miskin</span>
                             </a>
                         </li>
 
-                        <li class="submenu-item">
+                        <li class="submenu-item {{ Request::is('petajumlah*') ? '' : '' }}">
                             <a href="{{ route('web.jumlahpengangguran') }}" class='sidebar-link'>
                                 <i class="bi bi-person-dash-fill"></i>
                                 <span>Jumlah Pengangguran</span>
@@ -64,22 +64,22 @@
                         <span>Visualisasi</span>
                     </a>
                     <ul class="submenu">
-                        <li class="submenu-item">
-                            <a href="visualisasi-jumlah-penduduk.html" class='sidebar-link'>
+                        <li class="submenu-item {{ Request::is('/visualisasijumlahpenduduk') ? 'active' : '' }}">
+                            <a href="{{ route('web.visualisasijumlahpenduduk') }}" class='sidebar-link'>
                                 <i class="bi bi-people"></i>
                                 <span>Jumlah Penduduk</span>
                             </a>
                         </li>
 
-                        <li class="submenu-item">
-                            <a href="visualisasi-jumlah-penduduk-miskin.html" class='sidebar-link'>
+                        <li class="submenu-item {{ Request::is('/visualisasijumlahpendudukmiskin') ? 'active' : '' }}">
+                            <a href="{{ route('web.visualisasijumlahpendudukmiskin') }}" class='sidebar-link'>
                                 <i class="bi bi-person-lines-fill"></i>
                                 <span>Jumlah Penduduk Miskin</span>
                             </a>
                         </li>
 
-                        <li class="submenu-item">
-                            <a href="visualisasi-jumlah-pengangguran.html" class='sidebar-link'>
+                        <li class="submenu-item {{ Request::is('/visualisasijumlahpengangguran') ? 'active' : '' }}">
+                            <a href="{{ route('web.visualisasijumlahpengangguran') }}" class='sidebar-link'>
                                 <i class="bi bi-person-dash-fill"></i>
                                 <span>Jumlah Pengangguran</span>
                             </a>
@@ -87,8 +87,8 @@
                     </ul>
                 </li>
 
-                <li class="sidebar-item">
-                    <a href="form-layout.html" class='sidebar-link'>
+                <li class="sidebar-item {{ Request::is('/kesimpulan') ? 'active' : '' }}">
+                    <a href="{{ route('web.kesimpulan') }}" class='sidebar-link'>
                         <i class="bi bi-file-earmark-medical-fill"></i>
                         <span>Kesimpulan</span>
                     </a>
