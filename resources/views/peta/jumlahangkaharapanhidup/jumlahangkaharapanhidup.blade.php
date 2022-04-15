@@ -3,7 +3,7 @@
 @section('container')
 <div id="main">
     <div class="page-heading">
-        <h3>Angka Harapan Hidup di Jawa Barat Tahun 2017-2020</h3>
+        <h3>Angka Harapan Hidup di Jawa Barat Tahun 2016-2020</h3>
     </div>
 
     <header class="mb-3">

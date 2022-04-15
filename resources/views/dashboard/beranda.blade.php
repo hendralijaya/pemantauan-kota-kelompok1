@@ -22,90 +22,27 @@
         </div>
 
         <div class="row">
+            @forelse ($data as $d )
+            <div class="col">
+                <div class="card" style=" display: flex; justify-content: center; align-items: center; ">
+                <div class="card-body px-3 py-4-5">
+                        <div class="row">
+                            <div class="text-center" style=" display: flex; justify-content: center; align-items: center; flex-direction: column;">
+                                <h3 class="font-bold text-primary"> {{ $d['tahun'] }} </h3>
+                                <h6 class="font-extrabold mb-0"> {{ $d['jumlah_penduduk']}} Penduduk </h6>
+                                <br>
+                                <p class="text-muted mb-0">{{"(+" . $d['persentase_jumlah_penduduk'] * 100 . "%)"}}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            @empty
+            <h1>No Data</h1>
+            @endforelse
             <!-- 2016 Mulai -->
-            <div class="col">
-                <div class="card" style=" display: flex; justify-content: center; align-items: center; ">
-                <div class="card-body px-3 py-4-5">
-                        <div class="row">
-                            <div class="text-center" style=" display: flex; justify-content: center; align-items: center; flex-direction: column;">
-                                <h3 class="font-bold text-primary"> 2016 </h3>
-                                <h6 class="font-extrabold mb-0"> 100.000 Penduduk</h6>
-                                <br>
-                                <p class="text-muted mb-0">(-)</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            
             <!-- 2016 Selesai -->
-
-            <!-- 2017 Mulai -->
-            <div class="col">
-                <div class="card">
-                    <div class="card-body px-3 py-4-5">
-                        <div class="row">
-                            <div class="text-center" style=" display: flex; justify-content: center; align-items: center; flex-direction: column;">
-                                <h3 class="font-bold text-primary"> 2017 </h3>
-                                <h6 class="font-extrabold mb-0"> 112.000 Penduduk</h6>
-                                <br>
-                                <p class="text-muted mb-0">(+12%)</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- 2017 Selesai -->
-
-            <!-- 2018 Mulai -->
-            <div class="col">
-                <div class="card">
-                    <div class="card-body px-3 py-4-5">
-                        <div class="row">
-                            <div class="text-center" style=" display: flex; justify-content: center; align-items: center; flex-direction: column;">
-                                <h3 class="font-bold text-primary"> 2018 </h3>
-                                <h6 class="font-extrabold mb-0"> 183.000 Penduduk</h6>
-                                <br>
-                                <p class="text-muted mb-0">(+10%)</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- 2018 Selesai -->
-
-            <!-- 2019 Mulai -->
-            <div class="col">
-                <div class="card" style=" display: flex; justify-content: center; align-items: center; ">
-                    <div class="card-body px-3 py-4-5">
-                        <div class="row">
-                            <div class="text-center" style=" display: flex; justify-content: center; align-items: center; flex-direction: column;">
-                                <h3 class="font-bold text-primary"> 2019 </h3>
-                                <h6 class="font-extrabold mb-0"> 217.000 Penduduk</h6>
-                                <br>
-                                <p class="text-muted mb-0">(+30%)</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- 2019 Selesai -->
-
-            <!-- 2020 Mulai -->
-            <div class="col">
-                <div class="card" style=" display: flex; justify-content: center; align-items: center; ">
-                <div class="card-body px-3 py-4-5">
-                        <div class="row">
-                            <div class="text-center" style=" display: flex; justify-content: center; align-items: center; flex-direction: column;">
-                                <h3 class="font-bold text-primary"> 2020 </h3>
-                                <h6 class="font-extrabold mb-0"> 350.000 Penduduk</h6>
-                                <br>
-                                <p class="text-muted mb-0">(+40%)</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- 2020 Selesai -->
             <!-- Section Jumlah Penduduk Selesai -->
 
             <!-- Section Jumlah Penduduk Miskin Selesai -->
@@ -325,7 +262,7 @@
             <!-- Section Pengangguran Mulai -->
             <div class="card" style="margin-top: 30px;">
                 <div class="card-body" style="background-color: #FEFEFE; border-radius: 10px; box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.1); ">
-                    <h4 class="text-center mx-auto">Pengangguran di Jawa Barat Tahun 2016 - 2020</h4>
+                    <h4 class="text-center mx-auto">Pengangguran di Jawa Barat Tahun 2017 - 2020</h4>
                 </div>
             </div>
             <!-- Top 5 + Bottom 5 Pengangguran Mulai -->

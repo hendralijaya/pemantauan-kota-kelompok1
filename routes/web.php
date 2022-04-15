@@ -19,16 +19,12 @@ use Illuminate\Support\Facades\Route;
 // });
 
 Route::get('/beranda',[DashboardWebsiteController::class, 'index'])->name('web.index');
-//PETA
+//PETA + VISUALISASI
 Route::get('/petajumlahpenduduk',[DashboardWebsiteController::class, 'petaJumlahPenduduk'])->name('web.jumlahpenduduk');
 Route::get('/petajumlahpengangguran',[DashboardWebsiteController::class, 'petaJumlahPengangguran'])->name('web.jumlahpengangguran');
 Route::get('/petajumlahpendudukmiskin',[DashboardWebsiteController::class, 'petaJumlahPendudukMiskin'])->name('web.jumlahpendudukmiskin');
+Route::get('/petaangkaharapanhidup',[DashboardWebsiteController::class, 'petaAngkaHarapanHidup'])->name('web.angkaharapanhidup');
 
-//VISUALISASI
-
-Route::get('/visualisasijumlahpenduduk', [DashboardWebsiteController::class, 'visualisasiJumlahPenduduk'])->name('web.visualisasijumlahpenduduk');
-Route::get('/visualisasijumlahpengangguran', [DashboardWebsiteController::class, 'visualisasiJumlahPengangguran'])->name('web.visualisasijumlahpengangguran');
-Route::get('/visualisasijumlahpendudukmiskin', [DashboardWebsiteController::class, 'visualisasiJumlahPendudukMiskin'])->name('web.visualisasijumlahpendudukmiskin');
 
 Route::get('/kesimpulan', [DashboardWebsiteController::class, 'kesimpulan'])->name('web.kesimpulan');
 

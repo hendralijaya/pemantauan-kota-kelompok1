@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Dashboard;
 
 class DashboardWebsiteController extends Controller
 {
@@ -13,12 +14,19 @@ class DashboardWebsiteController extends Controller
      */
     public function index()
     {
-        return view('dashboard.beranda',['title' => 'Welcome to the  Website']);
+        $data = Dashboard::all();
+        foreach ($data as $d) {
+            $d['jumlah_penduduk'] = number_format($d['jumlah_penduduk'],0,',','.');
+        }
+        return view('dashboard.beranda',[
+            'title' => 'Welcome to the  Website',
+            'data' => $data
+        ]);
     }
 
     public function petaJumlahPenduduk()
     {
-        return view('peta.jumlahpenduduk.jumlahpenduduk', ['title' => 'Peta Jumlah Pengangguran di Jawa Barat Tahun 2017 - 2020']);
+        return view('peta.jumlahpenduduk.jumlahpenduduk', ['title' => 'Peta Jumlah Pengangguran di Jawa Barat Tahun 2016 - 2020']);
     }
 
     public function petaJumlahPengangguran()
@@ -28,31 +36,21 @@ class DashboardWebsiteController extends Controller
 
     public function petaJumlahPendudukMiskin()
     {
-        return view('peta.jumlahpendudukmiskin.jumlahpendudukmiskin', ['title' => 'Peta Jumlah Penduduk Miskin di Jawa Barat Tahun 2017 - 2020']);
+        return view('peta.jumlahpendudukmiskin.jumlahpendudukmiskin', ['title' => 'Peta Jumlah Penduduk Miskin di Jawa Barat Tahun 2016 - 2020']);
     }
 
-    public function visualisasiJumlahPenduduk()
+    public function petaAngkaHarapanHidup()
     {
-        return view('visualisasi.jumlahpenduduk.jumlahpenduduk', ['title' => 'Visualisasi Jumlah Penduduk di Jawa Barat Tahun 2017 - 2020']);
-    }
-
-    public function visualisasiJumlahPengangguran()
-    {
-        return view('visualisasi.jumlahpengangguran.jumlahpengangguran', ['title' => 'Visualisasi Jumlah Pengangguran di Jawa Barat Tahun 2017 - 2020']);
-    }
-
-    public function visualisasiJumlahPendudukMiskin()
-    {
-        return view('visualisasi.jumlahpendudukmiskin.jumlahpendudukmiskin', ['title' => 'Visualisasi Jumlah Penduduk Miskin di Jawa Barat Tahun 2017 - 2020']);
+        return view('peta.jumlahangkaharapanhidup.jumlahangkaharapanhidup', ['title' => 'Peta Angka Harapan Hidup di Jawa Barat Tahun 2016 - 2020']);
     }
 
     public function kesimpulan()
     {
-        return view();
+        return view('dashboard.kesimpulan', ['title' => 'Kesimpulan']);
     }
 
     public function about()
     {
-        return view();
+        return view('dashboard.tentangkami', ['title' => 'Tentang Kami']);
     }
 }
