@@ -79,15 +79,19 @@
         </div>
         <div class="col-12" style="margin-bottom:30px;">
             <h6>Profil Provinsi Jawa Barat</h6>
-            <p class="text-justify" style="text-align:justify">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse molestiae laboriosam repellat
-                alias rem corrupti, ut voluptatum nisi tenetur ducimus porro quisquam aliquam vel repellendus
-                quas assumenda veritatis accusamus excepturi eligendi ipsum dignissimos? Aperiam ipsum magni
-                impedit modi, accusamus ratione beatae vero repellendus obcaecati fuga voluptates officiis
-                excepturi assumenda voluptatibus. Saepe tenetur cum consequatur nemo porro vero labore aliquid,
-                ad dolorum. Aut alias corrupti ex, sequi placeat debitis velit! Nemo laudantium facere
-                asperiores, quis incidunt voluptas officia impedit neque consequuntur. Ab ullam accusantium
-                animi necessitatibus culpa recusandae. Reprehenderit minus obcaecati assumenda a praesentium
-                quidem doloremque, corporis quos architecto excepturi quibusdam.</p>
+            <p class="text-justify" style="text-align:justify">
+                Projek ini bertujuan untuk melakukan pemantauan di provinsi Jawa Barat pada domain Society
+                dengan 4 aspek berupa aspek kemiskinan, angka harapan hidup, angka pengangguran, dan
+                kepadatan penduduk.
+                <br><br>
+                Tujuan dari pemantauan ini:
+                <ol>
+                    <li>Mengetahui dan memberikan solusi terhadap masalah kemiskinan.</li>
+                    <li>Mengetahui perbandingan antara angka kemiskinan dan angka harapan hidup.</li>
+                    <li>Mengetahui pengaruh jumlah pengangguran terhadap angka kemiskinan.</li>
+                    <li>mengetahui dan memberikan solusi untuk menanggulangi masalah kepadatan penduduk di Jawa Barat.</li>
+                </ol>
+            </p>
         </div>
     </div>
     <!-- Tentang Proyek End -->
