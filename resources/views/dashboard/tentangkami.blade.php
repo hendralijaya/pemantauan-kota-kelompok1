@@ -13,14 +13,84 @@
         <h3>Tentang Kami</h3>
     </div>
 
+    <!-- Tentang Jawa Barat Dimulai Disini -->
+    <div class="row match-height">
+        <div class="col-12 mt-3 mb-1">
+            <h4 class="section-title">Tentang Jawa Barat</h4>
+        </div>
+        <div class="col-12" style="margin-bottom:30px">
+            <h6>Profil Provinsi Jawa Barat</h6>
+            <div class="row">
+                <div class="col-md-6 col-sm-12 col-12" >
+                    <div class="photo-map" style="display: flex; justify-content: center; align-items: center">
+                        <img src="./assets/images/peta-jabar.png" style="width: 75%; min-width: none; margin-top: 25px; margin-bottom: 10px;">
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12 col-12">
+                    <p class="text-justify" style="text-align:justify ">
+                        <ul style="list-style: none; line-height: 2.1">
+                            <li><b>Nama resmi:</b> Provinsi Jawa Barat</li>
+                            <li><b>Ibu kota:</b> Kota Bandung </li>
+                            <li><b>Dasar pembentukan:</b> Undang-Undang Nomor 11 Tahun 1950 </li>
+                            <li><b>Hari jadi:</b> 19 Agustus 1945 </li>
+                            <li><b>Gubernur pertama:</b> Sutardjo Kertohadikusumo </li>
+                            <li><b>Gubernur saat ini:</b> Ridwan Kamil </li>
+                            <li><b>Semboyan:</b> "Gemah Ripah Repeh Rapih” </li>
+                            <li><b>Plat nomor:</b> D, E, F, T, Z </li>
+                            <li><b>Landmark:</b> Gedung Sate</li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12" style="margin-bottom:30px">
+            <h6>Aspek Demografi Provinsi Jawa Barat</h6>
+            <div class="row">
+                <div class="col-md-6 col-sm-12 col-12">
+                    <div class="photo-map" style="display: flex; justify-content: center; align-items: center">
+                        <img src="./assets/images/gedung-sate.jpeg" style="width: 100%; min-width: none; margin-top: 25px; margin-bottom: 10px; border-radius: 10px">
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12 col-12">
+                    <p class="text-justify" style="text-align:justify ">
+                        <ul style="list-style: none; line-height: 2.1">
+                            <li><b>Luas wilayah:</b> 35.377,76 kilometer persegi</li>
+                            <li><b>Letak geografis:</b> 5º50’ - 7º50’ Lintang Selatan dan 104º 48’ - 108º 48’ Bujur Timur </li>
+                            <li><b>Batas wilayah Utara:</b> Laut Jawa dan Provinsi DKI Jakarta </li>
+                            <li><b>Batas wilayah Timur:</b> 19 Agustus 1945 </li>
+                            <li><b>Batas wilayah Selatan:</b> Samudera Indonesia </li>
+                            <li><b>Batas wilayah Barat:</b> Provinsi Banten </li>
+                            <li><b>Kota terbesar: </b> Bekasi </li>
+                            <li><b>Kota industri: </b> Karawang </li>
+                            <li><b>Infrastruktur penting:</b> Bandara Husein Sastranegara, Pelabuhan Cirebon</li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Tentang Jawa Barat Berakhir Disini -->
+
+    <!-- Tentang Proyek Start -->
     <div class="row match-height">
         <div class="col-12 mt-3 mb-1">
             <h4 class="section-title">Tentang Proyek</h4>
         </div>
-        <div class="col-12">
-            <p class="text-justify" style="text-align:justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam accusantium, nam omnis quasi, est dignissimos molestias iusto quo perferendis blanditiis ut earum facilis corrupti aliquid culpa quos similique illo nisi sint nihil repellendus doloremque corporis? Quaerat, similique. Assumenda porro quasi consequuntur. Similique sit aliquam qui sequi quae eveniet, tenetur dignissimos sapiente error odio consequuntur? Aperiam saepe autem cumque rem accusamus numquam dignissimos molestias, quidem sapiente quaerat ea blanditiis nobis iste fugit rerum amet, in explicabo aliquid, culpa quo ex eius? Voluptas est nobis ad corrupti molestiae similique blanditiis sint sapiente, illum quasi doloremque fuga vitae placeat voluptatum quae pariatur libero.</p>
+        <div class="col-12" style="margin-bottom:30px;">
+            <h6>Profil Provinsi Jawa Barat</h6>
+            <p class="text-justify" style="text-align:justify">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse molestiae laboriosam repellat
+                alias rem corrupti, ut voluptatum nisi tenetur ducimus porro quisquam aliquam vel repellendus
+                quas assumenda veritatis accusamus excepturi eligendi ipsum dignissimos? Aperiam ipsum magni
+                impedit modi, accusamus ratione beatae vero repellendus obcaecati fuga voluptates officiis
+                excepturi assumenda voluptatibus. Saepe tenetur cum consequatur nemo porro vero labore aliquid,
+                ad dolorum. Aut alias corrupti ex, sequi placeat debitis velit! Nemo laudantium facere
+                asperiores, quis incidunt voluptas officia impedit neque consequuntur. Ab ullam accusantium
+                animi necessitatibus culpa recusandae. Reprehenderit minus obcaecati assumenda a praesentium
+                quidem doloremque, corporis quos architecto excepturi quibusdam.</p>
         </div>
     </div>
+    <!-- Tentang Proyek End -->
 
     <!-- Groups section start -->
     <section id="groups">

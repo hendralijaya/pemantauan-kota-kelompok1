@@ -12,7 +12,7 @@
         </a>
     </header>
     <div class="row">
-        <div class="col-6">
+        <div class="col-12">
             <div class='tableauPlaceholder' id='viz1650036304926' style='position: relative; border-radius: 10px;'><noscript><a
                         href='#'><img alt='Peta Jumlah Penduduk Miskin di Jawa Barat (Ribuan Jiwa) '
                             src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pe&#47;PetaJumlahPendudukMiskindiJawaBarat&#47;PetaJumlahPendudukMiskinRibuanJiwa&#47;1_rss.png'
@@ -38,7 +38,7 @@
                 var divElement = document.getElementById('viz1650036304926');
                 var vizElement = divElement.getElementsByTagName('object')[0];
                 vizElement.style.width = '100%';
-                vizElement.style.height = (divElement.offsetWidth * 1) + 'px';
+                vizElement.style.height = (divElement.offsetWidth * 0.5) + 'px';
                 var scriptElement = document.createElement('script');
                 scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
                 vizElement.parentNode.insertBefore(scriptElement, vizElement);
