@@ -114,8 +114,8 @@
                             <div class="card-body">
                                 <h4 class="card-title">Delvin</h4>
                                 <p class="card-text">
-                                    This card has supporting text below as a natural lead-in to additional
-                                    content.</p>
+                                    Jurusan : Teknik Informatika
+                                </p>
                                 <small class="text-muted">NIM : 2110101012</small>
                             </div>
                         </div>
@@ -127,8 +127,7 @@
                             <div class="card-body">
                                 <h4 class="card-title">Patricia Ho</h4>
                                 <p class="card-text">
-                                    This card has supporting text below as a natural lead-in to additional
-                                    content.
+                                    Jurusan : Teknik Informatika
                                 </p>
                                 <small class="text-muted">NIM : 2110101015</small>
                             </div>
@@ -141,8 +140,7 @@
                             <div class="card-body">
                                 <h4 class="card-title">Hendra Lijaya</h4>
                                 <p class="card-text">
-                                    This card has supporting text below as a natural lead-in to additional
-                                    content.
+                                    Jurusan : Teknik Informatika
                                 </p>
                                 <small class="text-muted">NIM : 2110101023</small>
                             </div>
@@ -155,8 +153,7 @@
                             <div class="card-body">
                                 <h4 class="card-title">Yogi Valentino Nadeak</h4>
                                 <p class="card-text">
-                                    This card has supporting text below as a natural lead-in to additional
-                                    content.
+                                    Jurusan : Teknik Informatika
                                 </p>
                                 <small class="text-muted">NIM : 2110101033</small>
                             </div>

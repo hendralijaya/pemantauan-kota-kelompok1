@@ -23,7 +23,7 @@
 
         <div class="row">
             @forelse ($data as $d )
-            <div class="col">
+            <div class="col-md-3 col-sm-4 col-6">
                 <div class="card" style=" display: flex; justify-content: center; align-items: center; ">
                 <div class="card-body px-3 py-4-5">
                         <div class="row">
@@ -41,7 +41,7 @@
             <h1>No Data</h1>
             @endforelse
             <!-- 2016 Mulai -->
-            
+
             <!-- 2016 Selesai -->
             <!-- Section Jumlah Penduduk Selesai -->
 
