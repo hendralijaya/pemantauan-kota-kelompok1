@@ -39,12 +39,21 @@ class DashboardWebsiteController extends Controller
 
     public function petaJumlahPendudukMiskin()
     {
+        $data = Main::all();
         $data2016 = Main::where('tahun', '=', '2016')->get();
         $data2017 = Main::where('tahun', '=', '2017')->get();
         $data2018 = Main::where('tahun', '=', '2018')->get();
         $data2019 = Main::where('tahun', '=', '2019')->get();
         $data2020 = Main::where('tahun', '=', '2020')->get();
-        return view('peta.jumlahpendudukmiskin.jumlahpendudukmiskin', ['title' => 'Peta Jumlah Penduduk Miskin di Jawa Barat Tahun 2016 - 2020']);
+        return view('peta.jumlahpendudukmiskin.jumlahpendudukmiskin', [
+            'title' => 'Peta Jumlah Penduduk Miskin di Jawa Barat Tahun 2016 - 2020',
+            'data' => $data,
+            'data2016' => $data2016,
+            'data2017' => $data2017,
+            'data2018' => $data2018,
+            'data2019' => $data2019,
+            'data2020' => $data2020
+        ]);
     }
 
     public function petaAngkaHarapanHidup()
