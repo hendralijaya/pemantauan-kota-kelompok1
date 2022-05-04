@@ -48,9 +48,10 @@ class DashboardWebsiteController extends Controller
         WHEN angka_harapan_hidup = 72 THEN "rata-rata" 
         WHEN angka_harapan_hidup < 72 THEN "Dibawah rata-rata" 
         END AS status
+        
         FROM harapan_hidup 
-        WHERE tahun = "2016" AND kabupaten_kota NOT IN( SELECT kabupaten_kota FROM harapan_hidup WHERE tahun = "2016" AND kabupaten_kota = "Jawa Barat" )
-        ORDER BY harapan_hidup.angka_harapan_hidup DESC');
+        WHERE kabupaten_kota NOT IN( SELECT kabupaten_kota FROM harapan_hidup WHERE kabupaten_kota = "Jawa Barat" )
+        ORDER BY tahun ASC, harapan_hidup.angka_harapan_hidup DESC');
         return view('peta.jumlahangkaharapanhidup.jumlahangkaharapanhidup', [
             'title' => 'Peta Angka Harapan Hidup di Jawa Barat Tahun 2016 - 2020',
             'data' => $angkaHarapanHidup
