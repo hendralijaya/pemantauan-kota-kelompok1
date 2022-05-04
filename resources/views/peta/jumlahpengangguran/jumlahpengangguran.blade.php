@@ -110,7 +110,7 @@
         </div>
 
         <div class="col-12" style="margin-top: 30px">
-            <h5>Detail</h5>
+            <h4>Detail</h4>
             <p style="text-align: justify">
                 Berdasarkan hasil pengumpulan data pengangguran provinsi Jawa Barat, tahun 2020 merupakan tahun dimana pertumbuhan
                 pengangguran meningkat sangat pesat. Hal ini disebabkan oleh pandemi COVID-19 yang melanda sehingga banyak perusahaan

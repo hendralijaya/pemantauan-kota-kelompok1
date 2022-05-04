@@ -42,14 +42,14 @@ class DashboardWebsiteController extends Controller
 
     public function petaAngkaHarapanHidup()
     {
-        $angkaHarapanHidup = DB::select('SELECT *, 
-        CASE 
-        WHEN angka_harapan_hidup > 72 THEN "Diatas rata-rata" 
-        WHEN angka_harapan_hidup = 72 THEN "rata-rata" 
-        WHEN angka_harapan_hidup < 72 THEN "Dibawah rata-rata" 
+        $angkaHarapanHidup = DB::select('SELECT *,
+        CASE
+        WHEN angka_harapan_hidup > 72 THEN "Diatas rata-rata"
+        WHEN angka_harapan_hidup = 72 THEN "rata-rata"
+        WHEN angka_harapan_hidup < 72 THEN "Dibawah rata-rata"
         END AS status
-        
-        FROM harapan_hidup 
+
+        FROM harapan_hidup
         WHERE kabupaten_kota NOT IN( SELECT kabupaten_kota FROM harapan_hidup WHERE kabupaten_kota = "Jawa Barat" )
         ORDER BY tahun ASC, harapan_hidup.angka_harapan_hidup DESC');
         return view('peta.jumlahangkaharapanhidup.jumlahangkaharapanhidup', [

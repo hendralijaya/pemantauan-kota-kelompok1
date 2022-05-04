@@ -92,7 +92,7 @@
         </div>
 
         <div class="col-12" style="margin-top: 30px">
-            <h5>Detail</h5>
+            <h4>Detail</h4>
             <p style="text-align: justify">
                 Berdasarkan data visualisasi di atas, angka harapan hidup di setiap wilayah Jawa Barat
                 mengalami peningkatan secara konstan dalam kurun waktu 5 tahun mulai dari tahun 2016 hingga tahun 2020. Peningkatan
@@ -103,11 +103,67 @@
                 adalah kerjasama dengan rumah sakit swasta dalam melayani pasien Jaminan Kesehatan Masyarakat (Jamkesmas).
             </p>
 
-            <p style="text-align: justify">Kota Bekasi menjadi kota yang memiliki angka harapan hidup tertinggi dengan rata –
+            <p style="text-align: justify">
+                Kota Bekasi menjadi kota yang memiliki angka harapan hidup tertinggi dengan rata –
                 ratanya yaitu 75 tahun, diikuti oleh kota Depok , kota Bandung dan kota Cimahi dengan angka harapan hidup sebesar 74
                 tahun. Dilain sisi, angka harapan hidup paling rendah di wilayah Jawa Barat adalah 69 yang dimiliki oleh kabupaten
                 Tasikmalaya, diikuti dengan dua kabupaten wilayah di Jawa Barat yaitu kabupaten Majalengka dan Cianjur yang memiliki
-                angka harapan hidup sebesar 70 tahun.</p>
+                angka harapan hidup sebesar 70 tahun.
+            </p>
+        </div>
+
+        <div class="col-12" style="margin-top: 30px">
+            <div class="page-heading">
+                <div class="page-title">
+                    <div class="row">
+                        <div class="col-12 col-md-6 order-md-1 order-last">
+                            <h3>Tabel</h3>
+                            <p class="text-subtitle text-muted">Perbandingan Angka Harapan Hidup di Setiap Wilayah Kabupaten atau Kota di Jawa Barat dengan Rata - Rata Angka Harapan Hidup Provinsi Jawa Barat</p>
+                        </div>
+                    </div>
+                </div>
+                <section class="section">
+                    <div class="card">
+                        <div class="card-header">
+                            Status Angka Harapan Hidup di Jawa Barat
+                        </div>
+                        <div class="card-body">
+                            <table class="table table-striped" id="table1">
+                                <thead>
+                                    <tr>
+                                        <th>Nama Kabupaten atau Kota</th>
+                                        <th>Angka Harapan Hidup</th>
+                                        <th>Tahun</th>
+                                        <th>Status</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @forelse ( $data as $d)
+                                    <tr>
+                                        <td>{{ $d->kabupaten_kota }}</td>
+                                        <td>{{ $d->angka_harapan_hidup }}</td>
+                                        <td>{{ $d->tahun }}</td>
+                                        <td>
+                                            @if ($d->status == "Diatas rata-rata")
+                                            <span class="badge bg-success">Di atas rata - rata</span>
+                                            @elseif ($d->status == "rata-rata")
+                                            <span class="badge bg-warning">Rata - rata</span>
+                                            @else
+                                            <span class="badge bg-danger">Di bawah rata - rata</span>
+                                            @endif
+                                        </td>
+                                    </tr>
+                                    @empty
+                                    <tr>
+                                        <td colspan="4" class="text-center">Tidak ada data</td>
+                                    @endforelse
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                </section>
+            </div>
         </div>
     </div>
 </div>

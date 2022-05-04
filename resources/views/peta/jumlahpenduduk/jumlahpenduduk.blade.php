@@ -88,7 +88,7 @@
         </div>
 
         <div class="col-12" style="margin-top: 30px">
-            <h5>Detail</h5>
+            <h4>Detail</h4>
             <p style="text-align: justify">
                 Berdasarkan data visualisasi diatas, jumlah penduduk di tiap wilayah di Jawa Barat mengalami peningkatan secara
                 signifikan, dimulai dari tahun 2016 hingga 2020. Peningkatan penduduk ini dipengaruhi oleh beberapa faktor seperti

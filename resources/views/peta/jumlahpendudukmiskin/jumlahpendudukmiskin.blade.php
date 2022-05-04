@@ -91,7 +91,7 @@
         </div>
 
         <div class="col-12" style="margin-top: 30px">
-            <h5>Detail</h5>
+            <h4>Detail</h4>
             <p style="text-align: justify">
                 Berdasarkan data visualisasi di atas, angka kemiskinan penduduk mengalami penurunan dari tahun 2016 sampai 2019 tetapi
                 mengalami sedikit lonjakan penaikan pada tahun 2020 dikarenakan pandemi COVID-19 yang melanda seluruh dunia.
