@@ -112,14 +112,19 @@
         <div class="col-12" style="margin-top: 30px">
             <h4>Detail</h4>
             <p style="text-align: justify">
-                Berdasarkan hasil pengumpulan data pengangguran provinsi Jawa Barat, tahun 2020 merupakan tahun dimana pertumbuhan
-                pengangguran meningkat sangat pesat. Hal ini disebabkan oleh pandemi COVID-19 yang melanda sehingga banyak perusahaan
-                yang tutup (gulung tikar), melakukan PHK besar besaran dan banyak usaha yang tidak boleh dibuka seperti hotel,
-                pelabuhan, restoran dan masih banyak lainnya.
+                Berdasarkan hasil pengumpulan data pengangguran provinsi Jawa Barat dari tahun 2016 sampai tahun 2019, angka
+                pengangguran masih tergolong stabil. Meskipun sedikit meningkat, tetapi pada tahun 2020 pertumbuhan pengangguran
+                meningkat sangat pesat. Hal ini disebabkan oleh pandemi COVID-19 yang melanda sehingga banyak perusahaan yang tutup
+                (gulung tikar), melakukan PHK besar besaran dan banyak usaha yang tidak boleh dibuka seperti hotel, pelabuhan, restoran
+                dan masih banyak lainnya.
             </p>
 
             <p style="text-align: justify">
-
+                Kabupaten Bogor merupakan daerah Jawa Barat yang jumlah penganggurannya meningkat paling drastis akibat pandemi ini.
+                Mulai dari 543 ribu orang pada tahun 2019 meningkat menjadi 870 ribu orang. Walaupun pandemi ini menyebabkan angka
+                pengangguran meningkat sangat tinggi, tingkat pengangguran di Kota Banjar tergolong stabil walaupun angka
+                penganggurannya meningkat tetapi tidak terlalu drastis. Berdasarkan data yang ada, kota tersebut hanya mengalami sedikit
+                peningkatan mulai dari 11 ribu pada tahun 2019 menjadi 12 ribu pada tahun 2020.
             </p>
         </div>
         <div class="col-12" style="margin-top: 30px">
