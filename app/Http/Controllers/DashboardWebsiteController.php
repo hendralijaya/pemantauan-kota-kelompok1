@@ -2,8 +2,9 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
 use App\Models\Dashboard;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class DashboardWebsiteController extends Controller
 {
@@ -41,7 +42,20 @@ class DashboardWebsiteController extends Controller
 
     public function petaAngkaHarapanHidup()
     {
-        return view('peta.jumlahangkaharapanhidup.jumlahangkaharapanhidup', ['title' => 'Peta Angka Harapan Hidup di Jawa Barat Tahun 2016 - 2020']);
+        $angkaHarapanHidup = DB::select('SELECT *, 
+        CASE 
+        WHEN angka_harapan_hidup > 72 THEN "Diatas rata-rata" 
+        WHEN angka_harapan_hidup = 72 THEN "rata-rata" 
+        WHEN angka_harapan_hidup < 72 THEN "Dibawah rata-rata" 
+        END AS status
+        
+        FROM harapan_hidup 
+        WHERE kabupaten_kota NOT IN( SELECT kabupaten_kota FROM harapan_hidup WHERE kabupaten_kota = "Jawa Barat" )
+        ORDER BY tahun ASC, harapan_hidup.angka_harapan_hidup DESC');
+        return view('peta.jumlahangkaharapanhidup.jumlahangkaharapanhidup', [
+            'title' => 'Peta Angka Harapan Hidup di Jawa Barat Tahun 2016 - 2020',
+            'data' => $angkaHarapanHidup
+        ]);
     }
 
     public function kesimpulan()
