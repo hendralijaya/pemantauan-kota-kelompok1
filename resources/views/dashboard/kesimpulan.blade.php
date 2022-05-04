@@ -84,7 +84,16 @@
             <div class="col-12 mt-3 mb-1">
                 <br>
                 <h6>Q : Apa hubungan antara angka persentase penduduk miskin dengan angka harapan hidup di Jawa Barat?</h6>
-                <p>A : </p>
+                <p>
+                    <b>A :</b> Dari visualisasi data, hubungan tingkat kemiskinan penduduk dengan tingkat harapan hidup cukup berpengaruh. Hal ini
+                    dapat terjadi karena penduduk yang miskin cenderung lebih sulit mendapatkan pelayanan kesehatan karena faktor biaya dan
+                    jarak dari tempat tinggal ke rumah sakit cukup jauh. Tetapi jika dilihat dari grafik jumlah penduduk miskin dari tahun
+                    2016 sampai tahun 2019, terlihat bahwa grafiknya menurun. Hal ini menunjukkan bahwa program pemerintah provinsi Jawa
+                    Barat dalam menurunkan angka kemiskinan cukup sukses. Beriringan juga dengan tingkat harapan hidup yang semakin lama
+                    semakin naik yang menandakan semakin banyak warga yang cukup makmur hidupnya. Tetapi pada tahun 2020, ketika pandemi
+                    covid-19 menyerang Indonesia, angka kemiskinan pada tahun tersebut langsung meroket dikarenakan banyak pekerja yang di
+                    PHK dan banyak usaha-usaha yang bangkrut karena tidak bisa menjalankan kegiatan ekonominya.
+                </p>
                 <br>
             </div>
             {{-- Analisis Penduduk Miskin dan Angka Harapan Hidup Ends --}}
@@ -165,7 +174,19 @@
             <div class="col-12 mt-3 mb-1">
                 <br>
                 <h6>Q : Apa hubungan antara angka persentase penduduk miskin dengan jumlah pengangguran di Jawa Barat?</h6>
-                <p>A : </p>
+                <p><b>A :</b>
+                    Dalam visualisasi data yang kami pantau, hubungan tingkat kemiskinan dengan tingkat pengangguran di Jawa Barat sangatlah
+                    saling mempengaruhi satu sama lain karena ketika tingkat pengangguran naik, maka tingkat kemiskinan juga naik dan ketika
+                    tingkat pengangguran menurun maka tingkat kemiskinan akan menurun juga sebab masyarakat yang menganggur tidak mempunyai
+                    penghasilan dan pastinya akan berpengaruh ke tingkat kemiskinan
+
+                    Teori tersebut dapat dilihat dari chart diagram batang, yang mana jumlah penduduk miskin dan pengangguran mulai
+                    mengalami penurunan di tahun 2017 hingga 2019. Namun saat pandemi covid terjadi di tahun 2020 mengakibatkan banyak
+                    masyarakat atau pemuda yang mengurung diri di rumah atau menganggur sehingga tingkat kemiskinan dan pengangguran pun
+                    mengalami kenaikan kembali, banyaknya karyawan yang mengalami PHK dan tenaga kesehatan yang kurang memadai mengakibatkan
+                    pemuda was-was untuk keluar dari rumah merupakan faktor dari meningkatnya kembali tingkat kemiskinan dan pengangguran di
+                    Jawa Barat.
+                </p>
                 <br>
             </div>
             {{-- Analisis Penduduk Miskin dan Jumlah Pengangguran Ends --}}

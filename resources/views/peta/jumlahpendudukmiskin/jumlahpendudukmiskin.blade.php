@@ -107,6 +107,53 @@
                 Banjar memiliki angka kemiskinan terendah dengan total 11 ribu jiwa pada Tahun 2020.
             </p>
         </div>
+
+        <div class="col-12" style="margin-top: 30px">
+            <div class="page-heading">
+                <div class="page-title">
+                    <div class="row">
+                        <div class="col-12 col-md-6 order-md-1 order-last">
+                            <h3>Tabel</h3>
+                            <p class="text-subtitle text-muted">Perbandingan Angka Harapan Hidup di Setiap Wilayah Kabupaten atau Kota di Jawa Barat dengan Rata - Rata Angka Harapan Hidup Provinsi Jawa Barat</p>
+                        </div>
+                    </div>
+                </div>
+                <section class="section">
+                    <div class="card">
+                        <div class="card-header">
+                            Status Angka Harapan Hidup di Jawa Barat
+                        </div>
+                        <div class="card-body">
+                            <table class="table table-striped" id="table1">
+                                <thead>
+                                    <tr>
+                                        <th>Nama Kabupaten atau Kota</th>
+                                        <th>Persentase Penduduk Miskin</th>
+                                        <th>Jumlah Penduduk Miskin</th>
+                                        <th>Tahun</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @forelse ( $data as $d)
+                                    <tr>
+                                        <td>{{ $d->nama_kabupaten_kota }}</td>
+                                        <td>{{ $d->persentase_penduduk_miskin . "%" }}</td>
+                                        <td>{{ $d->jumlah_penduduk_miskin . "Ribu Jiwa" }}</td>
+                                        <td>{{ $d->tahun }}</td>
+                                    </tr>
+                                    @empty
+                                    <tr>
+                                        <td colspan="4" class="text-center table-danger">Tidak ada data</td>
+                                    @endforelse
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                </section>
+            </div>
+        </div>
+
     </div>
 </div>
 @endsection

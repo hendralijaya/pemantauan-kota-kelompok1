@@ -155,7 +155,7 @@
                                     </tr>
                                     @empty
                                     <tr>
-                                        <td colspan="4" class="text-center">Tidak ada data</td>
+                                        <td colspan="4" class="text-center table-danger">Tidak ada data</td>
                                     @endforelse
                                 </tbody>
                             </table>
