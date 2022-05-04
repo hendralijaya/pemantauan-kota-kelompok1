@@ -14,7 +14,7 @@
             <div
                 class="tableauPlaceholder"
                 id="viz1650705988502"
-                style="position: relative"
+                style="position: relative; border-radius : 10px"
             >
                 <noscript
                     ><a href="#"
@@ -59,7 +59,7 @@
                 vizElement.parentNode.insertBefore(scriptElement, vizElement);
             </script>
         </div>
-        <div class="col-6">
+        <div class="col-12" style="margin-top: 30px">
             <div
                 class="tableauPlaceholder"
                 id="viz1650037095958"
@@ -101,7 +101,7 @@
                 var divElement = document.getElementById("viz1650037095958");
                 var vizElement = divElement.getElementsByTagName("object")[0];
                 vizElement.style.width = "100%";
-                vizElement.style.height = divElement.offsetWidth * 1 + "px";
+                vizElement.style.height = divElement.offsetWidth * 0.5 + "px";
                 var scriptElement = document.createElement("script");
                 scriptElement.src =
                     "https://public.tableau.com/javascripts/api/viz_v1.js";

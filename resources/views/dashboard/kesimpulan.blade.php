@@ -240,7 +240,7 @@
             </div>
 
             <div class="col-6" style="margin-top: 20px; margin-bottom:20px;">
-                <h6>Q : Bagaimana kepadatan penduduk kabupaten - kabupaten yang ada di Jawa Barat dari tahun 2016-2020?</h6>
+                <h6>Q : Bagaimana kepadatan penduduk kabupaten - kabupaten yang ada di Jawa Barat dari tahun 2011-2020?</h6>
                 <p style="text-align:justify"><b>A :</b> Dari data kepadatan penduduk kabupaten/kota di Jawa Barat, selama 10 tahun terakhir terdapat 5 kota/kabupaten
                     yang secara konsisten memiliki kepadatan penduduk yang paling tinggi yaitu, Kota Bogor, Kota Depok, Kota Bekasi,
                     Kota Bandung dan Kota Cimahi dan 5 kota/kabupaten yang memiliki kepadatan penduduk yang paling rendah yaitu,
