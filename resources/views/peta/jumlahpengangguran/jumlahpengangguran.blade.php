@@ -258,7 +258,7 @@
             </div>
         </div>
         <div class="col-6" style="margin-top: 30px">
-            <h5 class="text-center">Tahun 2020</h5>
+            <h5 class="text-center">Tahun 2019-2020</h5>
             <div class="table-responsive">
                 <table class="table table-bordered mb-0" >
                     <thead class="thead-dark" >
