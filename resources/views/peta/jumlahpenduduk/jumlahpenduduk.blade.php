@@ -86,6 +86,20 @@
                 vizElement.parentNode.insertBefore(scriptElement, vizElement);
             </script>
         </div>
+
+        <div class="col-12" style="margin-top: 30px">
+            <h5>Detail</h5>
+            <p style="text-align: justify">
+                Berdasarkan data visualisasi diatas, jumlah penduduk di tiap wilayah di Jawa Barat mengalami peningkatan secara
+                signifikan, dimulai dari tahun 2016 hingga 2020. Peningkatan penduduk ini dipengaruhi oleh beberapa faktor seperti
+                banyaknya angka kelahiran dan sedikitnya angka kematian serta meningkatnya migrasi masuk di Jawa Barat.
+            </p>
+
+            <p style="text-align: justify">
+                Dalam kurun waktu tersebut, kota Bekasi merupakan kota yang memiliki jumlah peningkatan penduduk terbesar diantara kota
+                atau kabupaten di Jawa Barat lainnya dan kota Banjar adalah kota dengan jumlah peningkatan penduduk terkecil.
+            </p>
+        </div>
     </div>
 </div>
 

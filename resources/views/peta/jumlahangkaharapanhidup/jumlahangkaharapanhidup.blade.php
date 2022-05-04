@@ -90,6 +90,25 @@
                 vizElement.parentNode.insertBefore(scriptElement, vizElement);
             </script>
         </div>
+
+        <div class="col-12" style="margin-top: 30px">
+            <h5>Detail</h5>
+            <p style="text-align: justify">
+                Berdasarkan data visualisasi di atas, angka harapan hidup di setiap wilayah Jawa Barat
+                mengalami peningkatan secara konstan dalam kurun waktu 5 tahun mulai dari tahun 2016 hingga tahun 2020. Peningkatan
+                tersebut dipengaruhi oleh beberapa faktor seperti koordinasi dengan pihak lain/swasta pelaku kesehatan cukup baik,
+                komitmen kepala daerah provinsi dalam meningkatkan kesehatan masyarakat sangat baik dan kuantitas sarana prasarana
+                kesehatan sangat baik. Dalam melayani masyarakat, pemerintah daerah bekerja sama dengan pihak swasta agar kualitas
+                layanan kesehatan dapat lebih baik. Contoh kerjasama yang telah dilakukan pemerintah provinsi dengan pihak swasta
+                adalah kerjasama dengan rumah sakit swasta dalam melayani pasien Jaminan Kesehatan Masyarakat (Jamkesmas).
+            </p>
+
+            <p style="text-align: justify">Kota Bekasi menjadi kota yang memiliki angka harapan hidup tertinggi dengan rata –
+                ratanya yaitu 75 tahun, diikuti oleh kota Depok , kota Bandung dan kota Cimahi dengan angka harapan hidup sebesar 74
+                tahun. Dilain sisi, angka harapan hidup paling rendah di wilayah Jawa Barat adalah 69 yang dimiliki oleh kabupaten
+                Tasikmalaya, diikuti dengan dua kabupaten wilayah di Jawa Barat yaitu kabupaten Majalengka dan Cianjur yang memiliki
+                angka harapan hidup sebesar 70 tahun.</p>
+        </div>
     </div>
 </div>
 

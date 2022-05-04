@@ -108,6 +108,20 @@
                 vizElement.parentNode.insertBefore(scriptElement, vizElement);
             </script>
         </div>
+
+        <div class="col-12" style="margin-top: 30px">
+            <h5>Detail</h5>
+            <p style="text-align: justify">
+                Berdasarkan hasil pengumpulan data pengangguran provinsi Jawa Barat, tahun 2020 merupakan tahun dimana pertumbuhan
+                pengangguran meningkat sangat pesat. Hal ini disebabkan oleh pandemi COVID-19 yang melanda sehingga banyak perusahaan
+                yang tutup (gulung tikar), melakukan PHK besar besaran dan banyak usaha yang tidak boleh dibuka seperti hotel,
+                pelabuhan, restoran dan masih banyak lainnya.
+            </p>
+
+            <p style="text-align: justify">
+
+            </p>
+        </div>
     </div>
 </div>
 

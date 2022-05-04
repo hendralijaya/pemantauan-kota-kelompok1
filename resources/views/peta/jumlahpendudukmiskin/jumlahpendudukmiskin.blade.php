@@ -89,6 +89,23 @@
                 vizElement.parentNode.insertBefore(scriptElement, vizElement);
             </script>
         </div>
+
+        <div class="col-12" style="margin-top: 30px">
+            <h5>Detail</h5>
+            <p style="text-align: justify">
+                Berdasarkan data visualisasi di atas, angka kemiskinan penduduk mengalami penurunan dari tahun 2016 sampai 2019 tetapi
+                mengalami sedikit lonjakan penaikan pada tahun 2020 dikarenakan pandemi COVID-19 yang melanda seluruh dunia.
+                Program pemerintah daerah Jawa Barat sangat efektif dalam menangani kemiskinan yang terjadi di Jawa Barat. Mulai dari
+                program yang mengalokasikan anggaran untuk jaminan kesehatan masyarakat kurang mampu melalui BPJS, melakukan perbaikan
+                rumah tidak layak huni sampai meningkatkan peran masyarakat dalam pembangunan akses permodalan serta sinkronisasi
+                penanggulangan kemiskinan. Selain upaya diatas ada juga program unggulan Pemprov Jabar yaitu Kredit Mesra, One Pesantren
+                One Product, One Village One Company, Desa Digital dan program pengembangan kepariwisataan.
+            </p>
+
+            <p style="text-align: justify">
+
+            </p>
+        </div>
     </div>
 </div>
 @endsection
