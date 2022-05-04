@@ -154,162 +154,112 @@
             </div>
         </div>
 
-        <div class="col-6" style="margin-top: 30px">
-            <h5 class="text-center">Tahun 2016-2017</h5>
-            <div class="table-responsive">
-                <table class="table table-bordered mb-0" >
-                    <thead class="thead-dark" >
-                        <tr class="text-center">
-                            <th scope="col">No.</th>
-                            <th scope="col">Nama Kabupaten/Kota</th>
-                            <th scope="col">Jumlah Penduduk Miskin</th>
-                            <th scope="col">Selisih Jumlah (tahun lalu)</th>
-                            <th scope="col">Tahun</th>
-                            <th scope="col">Status</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        @forelse ( $data2017 as $d17)
-                        <tr class="table-light text-center">
-                            <td>{{ $loop->iteration }}</td>
-                            <td>{{ $d17->nama_kabupaten_kota }}</td>
-                            <td>{{ $d17->jumlah_penduduk_miskin }}</td>
-                            @forelse ( $data2016 as $d16)
-                                @if ($d17->nama_kabupaten_kota == $d16->nama_kabupaten_kota)
-                                <td>{{ number_format($d17->jumlah_penduduk_miskin - $d16->jumlah_penduduk_miskin, 1) }}</td>
-                            <td>{{ $d17->tahun }}</td>
-                            <td class="text-center">
-                                @if (number_format($d17->jumlah_penduduk_miskin - $d16->jumlah_penduduk_miskin, 1) > 0)
-                                <span class="badge bg-success">Naik</span>
-                                @elseif (number_format($d17->jumlah_penduduk_miskin - $d16->jumlah_penduduk_miskin, 1) < 0)
-                                <span class="badge bg-danger">Turun</span>
-                                @else
-                                <span class="badge bg-warning">Stagnan</span>
-                                @endif
-                                @endif
-                            </td>
-                            @empty
-                            @endforelse
-                        </tr>
-                        @empty
-                        <tr>
-                            <td colspan="4" class="text-center table-danger">Tidak ada data</td>
-                        @endforelse
-                    </tbody>
-                </table>
-            </div>
-        </div>
+        <div class="col-12" style="margin-top: 30px">
+            <div class="page-heading">
+                <div class="page-title">
+                    <div class="row">
+                        <div class="col-12 col-md-12 order-md-1 order-last">
+                            <h4>Tabel</h4>
+                            <p class="text-subtitle text-muted">Selisih Jumlah Penduduk Miskin tiap Tahunnya di Jawa Barat</p>
+                        </div>
+                    </div>
+                </div>
+                <section class="section">
+                    <div class="card">
+                        <div class="card-header">
+                            Status Jumlah Penduduk Miskin di Jawa Barat
+                        </div>
+                        <div class="card-body">
+                            <table class="table table-striped" id="table1">
+                                <thead>
+                                    <tr>
+                                        <th>Nama Kabupaten atau Kota</th>
+                                        <th>Jumlah Penduduk Miskin</th>
+                                        <th>Selisih Jumlah Penduduk Miskin</th>
+                                        <th>Tahun</th>
+                                        <th>Status</th>
+                                    </tr>
+                                </thead>
 
-        <div class="col-6" style="margin-top: 30px">
-            <h5 class="text-center">Tahun 2017-2018</h5>
-            <div class="table-responsive">
-                <table class="table table-bordered mb-0">
-                    <thead class="thead-dark">
-                        <tr class="text-center">
-                            <th scope="col">No.</th>
-                            <th scope="col">Nama Kabupaten/Kota</th>
-                            <th scope="col">Jumlah Penduduk Miskin</th>
-                            <th scope="col">Selisih Jumlah (tahun lalu)</th>
-                            <th scope="col">Tahun</th>
-                            <th scope="col">Status</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        @forelse ( $data2018 as $d18)
-                        <tr class="table-light text-center">
-                            <td>{{ $loop->iteration }}</td>
-                            <td>{{ $d18->nama_kabupaten_kota }}</td>
-                            <td>{{ $d18->jumlah_penduduk_miskin }}</td>
-                            @forelse ( $data2017 as $d17)
-                                @if ($d18->nama_kabupaten_kota == $d17->nama_kabupaten_kota)
-                                <td>{{ number_format($d18->jumlah_penduduk_miskin - $d17->jumlah_penduduk_miskin, 1) }}</td>
-                            <td>{{ $d18->tahun }}</td>
-                            <td class="text-center">
-                                @if (number_format($d18->jumlah_penduduk_miskin - $d17->jumlah_penduduk_miskin, 1) > 0)
-                                <span class="badge bg-success">Naik</span>
-                                @elseif (number_format($d18->jumlah_penduduk_miskin - $d17->jumlah_penduduk_miskin, 1) < 0)
-                                <span class="badge bg-danger">Turun</span>
-                                @else
-                                <span class="badge bg-warning">Stagnan</span>
-                                @endif
-                                @endif
-                            </td>
+                                <tbody>
+                                    @forelse ( $data2017 as $d17)
+                            <tr class="table-light text-center">
+                                <td>{{ $d17->nama_kabupaten_kota }}</td>
+                                <td>{{ $d17->jumlah_penduduk_miskin }}</td>
+                                @forelse ( $data2016 as $d16)
+                                    @if ($d17->nama_kabupaten_kota == $d16->nama_kabupaten_kota)
+                                    <td>{{ number_format($d17->jumlah_penduduk_miskin - $d16->jumlah_penduduk_miskin, 1) }}</td>
+                                <td>{{ $d17->tahun }}</td>
+                                <td class="text-center">
+                                    @if (number_format($d17->jumlah_penduduk_miskin - $d16->jumlah_penduduk_miskin, 1) > 0)
+                                    <span class="badge bg-success">Naik</span>
+                                    @elseif (number_format($d17->jumlah_penduduk_miskin - $d16->jumlah_penduduk_miskin, 1) < 0)
+                                    <span class="badge bg-danger">Turun</span>
+                                    @else
+                                    <span class="badge bg-warning">Stagnan</span>
+                                    @endif
+                                    @endif
+                                </td>
+                                @empty
+                                @endforelse
+                            </tr>
                             @empty
+                            <tr>
+                                <td colspan="4" class="text-center table-danger">Tidak ada data</td>
                             @endforelse
-                        </tr>
-                        @empty
-                        <tr>
-                            <td colspan="4" class="text-center table-danger">Tidak ada data</td>
-                        @endforelse
-                    </tbody>
-                </table>
-            </div>
-        </div>
-
-        <div class="col-6" style="margin-top: 30px">
-            <h5 class="text-center">Tahun 2018-2019</h5>
-            <div class="table-responsive">
-                <table class="table table-bordered mb-0">
-                    <thead class="thead-dark">
-                        <tr class="text-center">
-                            <th scope="col">No.</th>
-                            <th scope="col">Nama Kabupaten/Kota</th>
-                            <th scope="col">Jumlah Penduduk Miskin</th>
-                            <th scope="col">Selisih Jumlah (tahun lalu)</th>
-                            <th scope="col">Tahun</th>
-                            <th scope="col">Status</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        @forelse ( $data2019 as $d19)
-                        <tr class="table-light text-center">
-                            <td>{{ $loop->iteration }}</td>
-                            <td>{{ $d19->nama_kabupaten_kota }}</td>
-                            <td>{{ $d19->jumlah_penduduk_miskin }}</td>
+                            </tr>
                             @forelse ( $data2018 as $d18)
-                                @if ($d19->nama_kabupaten_kota == $d18->nama_kabupaten_kota)
-                                <td>{{ number_format($d19->jumlah_penduduk_miskin - $d18->jumlah_penduduk_miskin, 1) }}</td>
-                            <td>{{ $d19->tahun }}</td>
-                            <td class="text-center">
-                                @if (number_format($d19->jumlah_penduduk_miskin - $d18->jumlah_penduduk_miskin, 1) > 0)
-                                <span class="badge bg-success">Naik</span>
-                                @elseif (number_format($d19->jumlah_penduduk_miskin - $d18->jumlah_penduduk_miskin, 1) < 0)
-                                <span class="badge bg-danger">Turun</span>
-                                @else
-                                <span class="badge bg-warning">Stagnan</span>
-                                @endif
-                                @endif
-                            </td>
+                            <tr class="table-light text-center">
+                                <td>{{ $d18->nama_kabupaten_kota }}</td>
+                                <td>{{ $d18->jumlah_penduduk_miskin }}</td>
+                                @forelse ( $data2017 as $d17)
+                                    @if ($d18->nama_kabupaten_kota == $d17->nama_kabupaten_kota)
+                                    <td>{{ number_format($d18->jumlah_penduduk_miskin - $d17->jumlah_penduduk_miskin, 1) }}</td>
+                                <td>{{ $d18->tahun }}</td>
+                                <td class="text-center">
+                                    @if (number_format($d18->jumlah_penduduk_miskin - $d17->jumlah_penduduk_miskin, 1) > 0)
+                                    <span class="badge bg-success">Naik</span>
+                                    @elseif (number_format($d18->jumlah_penduduk_miskin - $d17->jumlah_penduduk_miskin, 1) < 0)
+                                    <span class="badge bg-danger">Turun</span>
+                                    @else
+                                    <span class="badge bg-warning">Stagnan</span>
+                                    @endif
+                                    @endif
+                                </td>
+                                @empty
+                                @endforelse
+                            </tr>
                             @empty
+                            <tr>
+                                <td colspan="4" class="text-center table-danger">Tidak ada data</td>
                             @endforelse
-                        </tr>
-                        @empty
-                        <tr>
-                            <td colspan="4" class="text-center table-danger">Tidak ada data</td>
-                        @endforelse
-                    </tbody>
-                </table>
-            </div>
-        </div>
-
-        <div class="col-6" style="margin-top: 30px">
-            <h5 class="text-center">Tahun 2019-2020</h5>
-            <div class="table-responsive">
-                <table class="table table-bordered mb-0">
-                    <thead class="thead-dark">
-                        <tr class="text-center">
-                            <th scope="col">No.</th>
-                            <th scope="col">Nama Kabupaten/Kota</th>
-                            <th scope="col">Jumlah Penduduk Miskin</th>
-                            <th scope="col">Selisih Jumlah (tahun lalu)</th>
-                            <th scope="col">Tahun</th>
-                            <th scope="col">Status</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        @forelse ( $data2020 as $d20)
+                            </tr>
+                            @forelse ( $data2019 as $d19)
+                            <tr class="table-light text-center">
+                                <td>{{ $d19->nama_kabupaten_kota }}</td>
+                                <td>{{ $d19->jumlah_penduduk_miskin }}</td>
+                                @forelse ( $data2018 as $d18)
+                                    @if ($d19->nama_kabupaten_kota == $d18->nama_kabupaten_kota)
+                                    <td>{{ number_format($d19->jumlah_penduduk_miskin - $d18->jumlah_penduduk_miskin, 1) }}</td>
+                                <td>{{ $d19->tahun }}</td>
+                                <td class="text-center">
+                                    @if (number_format($d19->jumlah_penduduk_miskin - $d18->jumlah_penduduk_miskin, 1) > 0)
+                                    <span class="badge bg-success">Naik</span>
+                                    @elseif (number_format($d19->jumlah_penduduk_miskin - $d18->jumlah_penduduk_miskin, 1) < 0)
+                                    <span class="badge bg-danger">Turun</span>
+                                    @else
+                                    <span class="badge bg-warning">Stagnan</span>
+                                    @endif
+                                    @endif
+                                </td>
+                                @empty
+                                @endforelse
+                            @empty
+                            <tr>
+                                <td colspan="4" class="text-center table-danger">Tidak ada data</td>
+                            @endforelse
+                            @forelse ( $data2020 as $d20)
                         <tr class="table-light text-center">
-                            <td>{{ $loop->iteration }}</td>
                             <td>{{ $d20->nama_kabupaten_kota }}</td>
                             <td>{{ $d20->jumlah_penduduk_miskin }}</td>
                             @forelse ( $data2019 as $d19)
@@ -333,11 +283,13 @@
                         <tr>
                             <td colspan="4" class="text-center table-danger">Tidak ada data</td>
                         @endforelse
-                    </tbody>
-                </table>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </section>
             </div>
         </div>
-
 
     </div>
 </div>
