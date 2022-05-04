@@ -128,22 +128,22 @@
                     <div class="row">
                         <div class="col-12 col-md-12 order-md-1 order-last">
                             <h4>Tabel</h4>
-                            <p class="text-subtitle text-muted">Perbandingan Angka Harapan Hidup di Setiap Wilayah Kabupaten atau Kota di Jawa Barat dengan Rata - Rata Angka Harapan Hidup Provinsi Jawa Barat</p>
+                            <p class="text-subtitle text-muted">Perbandingan Angka Pengangguran di Setiap Wilayah Kabupaten atau Kota di Jawa Barat dengan Rata - Rata Angka Harapan Hidup Provinsi Jawa Barat</p>
                         </div>
                     </div>
                 </div>
                 <section class="section">
                     <div class="card">
                         <div class="card-header">
-                            Status Angka Harapan Hidup di Jawa Barat
+                            Status Angka Pengangguran di Jawa Barat
                         </div>
                         <div class="card-body">
                             <table class="table table-striped" id="table1">
                                 <thead>
                                     <tr>
                                         <th>Nama Kabupaten atau Kota</th>
-                                        <th>Persentase Penduduk Miskin</th>
-                                        <th>Jumlah Penduduk Miskin</th>
+                                        <th>Persentase Pengangguran</th>
+                                        <th>Jumlah Penduduk Pengangguran</th>
                                         <th>Tahun</th>
                                     </tr>
                                 </thead>
@@ -174,30 +174,32 @@
                     <div class="row">
                         <div class="col-12 col-md-12 order-md-1 order-last">
                             <h4>Tabel</h4>
-                            <p class="text-subtitle text-muted">Perbandingan Angka Harapan Hidup di Setiap Wilayah Kabupaten atau Kota di Jawa Barat dengan Rata - Rata Angka Harapan Hidup Provinsi Jawa Barat</p>
+                            <p class="text-subtitle text-muted">Perbandingan Angka Pengangguran di Setiap Wilayah Kabupaten atau Kota di Jawa Barat dengan Rata - Rata Angka Harapan Hidup Provinsi Jawa Barat</p>
                         </div>
                     </div>
                 </div>
                 <section class="section">
                     <div class="card">
                         <div class="card-header">
-                            Status Angka Harapan Hidup di Jawa Barat
+                            Status Angka Pengangguran di Jawa Barat
                         </div>
                         <div class="card-body">
-                            <table class="table table-striped" id="table1">
+                            <table class="table table-striped" id="table2">
                                 <thead>
                                     <tr>
                                         <th>Nama Kabupaten atau Kota</th>
-                                        <th>Persentase Penduduk Miskin</th>
-                                        <th>Jumlah Penduduk Miskin</th>
+                                        <th>Persentase Pengangguran</th>
+                                        <th>Jumlah Pengangguran</th>
+                                        <th>Selisih Pengangguran</th>
                                         <th>Tahun</th>
+                                        <th>Status</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     @forelse ( $data2018 as $d18)
-                                    <tr class="table-light text-center">
-                                        <td>{{ $loop->iteration }}</td>
+                                    <tr class="table-light">
                                         <td>{{ $d18->nama_kabupaten_kota }}</td>
+                                        <td>{{ $d18->persentase_tingkat_pengangguran_terbuka . "%" }}</td>
                                         <td>{{ $d18->jumlah_pengangguran_angka }}</td>
                                         @forelse ( $data2017 as $d17)
                                             @if ($d18->nama_kabupaten_kota == $d17->nama_kabupaten_kota)
@@ -221,7 +223,7 @@
                                         <td colspan="4" class="text-center table-danger">Tidak ada data</td>
                                     @endforelse
                                     @forelse ( $data2019 as $d19)
-                                    <tr class="table-light text-center">
+                                    <tr class="table-light">
                                         <td>{{ $loop->iteration + 27 }}</td>
                                         <td>{{ $d19->nama_kabupaten_kota }}</td>
                                         <td>{{ $d19->jumlah_pengangguran_angka }}</td>
@@ -247,7 +249,7 @@
                                         <td colspan="4" class="text-center table-danger">Tidak ada data</td>
                                     @endforelse
                                     @forelse ( $data2020 as $d20)
-                                    <tr class="table-light text-center">
+                                    <tr class="table-light">
                                         <td>{{ $loop->iteration+54 }}</td>
                                         <td>{{ $d20->nama_kabupaten_kota }}</td>
                                         <td>{{ $d20->jumlah_pengangguran_angka }}</td>
