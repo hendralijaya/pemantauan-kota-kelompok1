@@ -128,7 +128,7 @@
                     <div class="row">
                         <div class="col-12 col-md-12 order-md-1 order-last">
                             <h4>Tabel</h4>
-                            <p class="text-subtitle text-muted">Perbandingan Angka Pengangguran di Setiap Wilayah Kabupaten atau Kota di Jawa Barat dengan Rata - Rata Angka Harapan Hidup Provinsi Jawa Barat</p>
+                            <p class="text-subtitle text-muted">Perbandingan Angka Pengangguran di Setiap Wilayah Kabupaten atau Kota di Jawa Barat</p>
                         </div>
                     </div>
                 </div>
@@ -174,7 +174,7 @@
                     <div class="row">
                         <div class="col-12 col-md-12 order-md-1 order-last">
                             <h4>Tabel</h4>
-                            <p class="text-subtitle text-muted">Perbandingan Angka Pengangguran di Setiap Wilayah Kabupaten atau Kota di Jawa Barat dengan Rata - Rata Angka Harapan Hidup Provinsi Jawa Barat</p>
+                            <p class="text-subtitle text-muted">Selisih Jumlah Pengangguran Setiap Tahunnya di Jawa Barat</p>
                         </div>
                     </div>
                 </div>

@@ -107,7 +107,7 @@
                     <div class="row">
                         <div class="col-12 col-md-12 order-md-1 order-last">
                             <h3>Tabel</h3>
-                            <p class="text-subtitle text-muted">Perbandingan Jumlah Penduduk di Setiap Wilayah Kabupaten atau Kota di Jawa Barat dengan Rata - Rata Angka Harapan Hidup Provinsi Jawa Barat</p>
+                            <p class="text-subtitle text-muted">Perbandingan Jumlah Penduduk di Setiap Wilayah Kabupaten atau Kota di Jawa Barat dengan Rata - Rata Jumlah Penduduk Provinsi Jawa Barat</p>
                         </div>
                     </div>
                 </div>

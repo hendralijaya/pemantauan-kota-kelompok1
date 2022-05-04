@@ -114,14 +114,14 @@
                     <div class="row">
                         <div class="col-12 col-md-12 order-md-1 order-last">
                             <h4>Tabel</h4>
-                            <p class="text-subtitle text-muted">Perbandingan Angka Harapan Hidup di Setiap Wilayah Kabupaten atau Kota di Jawa Barat dengan Rata - Rata Angka Harapan Hidup Provinsi Jawa Barat</p>
+                            <p class="text-subtitle text-muted">Persentase dan Jumlah Penduduk Miskin di Setiap Wilayah Kabupaten atau Kota di Jawa Barat</p>
                         </div>
                     </div>
                 </div>
                 <section class="section">
                     <div class="card">
                         <div class="card-header">
-                            Status Angka Harapan Hidup di Jawa Barat
+                            Persentase dan Jumlah Penduduk Miskin di Jawa Barat
                         </div>
                         <div class="card-body">
                             <table class="table table-striped" id="table1">
@@ -160,7 +160,7 @@
                     <div class="row">
                         <div class="col-12 col-md-12 order-md-1 order-last">
                             <h4>Tabel</h4>
-                            <p class="text-subtitle text-muted">Selisih Jumlah Penduduk Miskin tiap Tahunnya di Jawa Barat</p>
+                            <p class="text-subtitle text-muted">Selisih Jumlah Penduduk Miskin Setiap Tahunnya di Jawa Barat</p>
                         </div>
                     </div>
                 </div>
@@ -170,7 +170,7 @@
                             Status Jumlah Penduduk Miskin di Jawa Barat
                         </div>
                         <div class="card-body">
-                            <table class="table table-striped" id="table1">
+                            <table class="table table-striped" id="table2">
                                 <thead>
                                     <tr>
                                         <th>Nama Kabupaten atau Kota</th>
@@ -183,7 +183,7 @@
 
                                 <tbody>
                                     @forelse ( $data2017 as $d17)
-                            <tr class="table-light text-center">
+                            <tr class="table-light">
                                 <td>{{ $d17->nama_kabupaten_kota }}</td>
                                 <td>{{ $d17->jumlah_penduduk_miskin }}</td>
                                 @forelse ( $data2016 as $d16)
