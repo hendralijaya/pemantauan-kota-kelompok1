@@ -103,7 +103,8 @@
             </p>
 
             <p style="text-align: justify">
-
+                Kota Bogor merupakan kota yang memiliki jumlah angka kemiskinan tertinggi dengan total 465 ribu jiwa pada Tahun 2020 dan Kota
+                Banjar memiliki angka kemiskinan terendah dengan total 11 ribu jiwa pada Tahun 2020.
             </p>
         </div>
     </div>
