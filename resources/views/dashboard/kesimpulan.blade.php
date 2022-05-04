@@ -84,7 +84,7 @@
             <div class="col-12 mt-3 mb-1">
                 <br>
                 <h6>Q : Apa hubungan antara angka persentase penduduk miskin dengan angka harapan hidup di Jawa Barat?</h6>
-                <p>
+                <p style="text-align: justify">
                     <b>A :</b> Dari visualisasi data, hubungan tingkat kemiskinan penduduk dengan tingkat harapan hidup cukup berpengaruh. Hal ini
                     dapat terjadi karena penduduk yang miskin cenderung lebih sulit mendapatkan pelayanan kesehatan karena faktor biaya dan
                     jarak dari tempat tinggal ke rumah sakit cukup jauh. Tetapi jika dilihat dari grafik jumlah penduduk miskin dari tahun
@@ -174,7 +174,7 @@
             <div class="col-12 mt-3 mb-1">
                 <br>
                 <h6>Q : Apa hubungan antara angka persentase penduduk miskin dengan jumlah pengangguran di Jawa Barat?</h6>
-                <p><b>A :</b>
+                <p style="text-align: justify"><b>A :</b>
                     Dalam visualisasi data yang kami pantau, hubungan tingkat kemiskinan dengan tingkat pengangguran di Jawa Barat sangatlah
                     saling mempengaruhi satu sama lain karena ketika tingkat pengangguran naik, maka tingkat kemiskinan juga naik dan ketika
                     tingkat pengangguran menurun maka tingkat kemiskinan akan menurun juga sebab masyarakat yang menganggur tidak mempunyai

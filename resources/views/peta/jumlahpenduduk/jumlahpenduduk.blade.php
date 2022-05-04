@@ -100,6 +100,8 @@
                 atau kabupaten di Jawa Barat lainnya dan kota Banjar adalah kota dengan jumlah peningkatan penduduk terkecil.
             </p>
         </div>
+
+
     </div>
 </div>
 
