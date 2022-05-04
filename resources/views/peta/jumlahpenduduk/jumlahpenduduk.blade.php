@@ -101,6 +101,136 @@
             </p>
         </div>
 
+        <div class="col-12" style="margin-top: 30px">
+            <div class="page-heading">
+                <div class="page-title">
+                    <div class="row">
+                        <div class="col-12 col-md-12 order-md-1 order-last">
+                            <h3>Tabel</h3>
+                            <p class="text-subtitle text-muted">Perbandingan Jumlah Penduduk di Setiap Wilayah Kabupaten atau Kota di Jawa Barat dengan Rata - Rata Angka Harapan Hidup Provinsi Jawa Barat</p>
+                        </div>
+                    </div>
+                </div>
+                <section class="section">
+                    <div class="card">
+                        <div class="card-header">
+                            Status Jumlah Penduduk di Jawa Barat
+                        </div>
+                        <div class="card-body">
+                            <table class="table table-striped" id="table1">
+                                <thead>
+                                    <tr>
+                                        <th>Nama Kabupaten atau Kota</th>
+                                        <th>Jumlah Penduduk</th>
+                                        <th>Tahun</th>
+                                        <th>Status</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @forelse ($data2016 as $d16)
+                                    <tr>
+                                        <td>{{ $d16->nama_kabupaten_kota }}</td>
+                                        <td>{{ $d16->jumlah_penduduk }}</td>
+                                        <td>{{ $d16->tahun }}</td>
+                                        <td>
+                                            @if ($d16->status == "Diatas rata-rata")
+                                            <span class="badge bg-success">Di atas rata - rata</span>
+                                            @elseif ($d16->status == "rata-rata")
+                                            <span class="badge bg-warning">Rata - rata</span>
+                                            @else
+                                            <span class="badge bg-danger">Di bawah rata - rata</span>
+                                            @endif
+                                        </td>
+                                    </tr>
+                                    @empty
+                                    <tr>
+                                        <td colspan="4" class="text-center table-danger">Tidak ada data</td>
+                                    @endforelse
+
+                                    @forelse ($data2017 as $d17)
+                                    <tr>
+                                        <td>{{ $d17->nama_kabupaten_kota }}</td>
+                                        <td>{{ $d17->jumlah_penduduk }}</td>
+                                        <td>{{ $d17->tahun }}</td>
+                                        <td>
+                                            @if ($d17->status == "Diatas rata-rata")
+                                            <span class="badge bg-success">Di atas rata - rata</span>
+                                            @elseif ($d17->status == "rata-rata")
+                                            <span class="badge bg-warning">Rata - rata</span>
+                                            @else
+                                            <span class="badge bg-danger">Di bawah rata - rata</span>
+                                            @endif
+                                        </td>
+                                    </tr>
+                                    @empty
+                                    <tr>
+                                        <td colspan="4" class="text-center table-danger">Tidak ada data</td>
+                                    @endforelse
+
+                                    @forelse ($data2018 as $d18)
+                                        <td>{{ $d18->nama_kabupaten_kota }}</td>
+                                        <td>{{ $d18->jumlah_penduduk }}</td>
+                                        <td>{{ $d18->tahun }}</td>
+                                        <td>
+                                            @if ($d18->status == "Diatas rata-rata")
+                                            <span class="badge bg-success">Di atas rata - rata</span>
+                                            @elseif ($d18->status == "rata-rata")
+                                            <span class="badge bg-warning">Rata - rata</span>
+                                            @else
+                                            <span class="badge bg-danger">Di bawah rata - rata</span>
+                                            @endif
+                                        </td>
+                                    </tr>
+                                    @empty
+                                    <tr>
+                                        <td colspan="4" class="text-center table-danger">Tidak ada data</td>
+                                    @endforelse
+
+                                    @forelse ($data2019 as $d19)
+                                        <td>{{ $d19->nama_kabupaten_kota }}</td>
+                                        <td>{{ $d19->jumlah_penduduk }}</td>
+                                        <td>{{ $d19->tahun }}</td>
+                                        <td>
+                                            @if ($d19->status == "Diatas rata-rata")
+                                            <span class="badge bg-success">Di atas rata - rata</span>
+                                            @elseif ($d19->status == "rata-rata")
+                                            <span class="badge bg-warning">Rata - rata</span>
+                                            @else
+                                            <span class="badge bg-danger">Di bawah rata - rata</span>
+                                            @endif
+                                        </td>
+                                    </tr>
+                                    @empty
+                                    <tr>
+                                        <td colspan="4" class="text-center table-danger">Tidak ada data</td>
+                                    @endforelse
+
+                                    @forelse ($data2020 as $d20)
+                                        <td>{{ $d20->nama_kabupaten_kota }}</td>
+                                        <td>{{ $d20->jumlah_penduduk }}</td>
+                                        <td>{{ $d20->tahun }}</td>
+                                        <td>
+                                            @if ($d20->status == "Diatas rata-rata")
+                                            <span class="badge bg-success">Di atas rata - rata</span>
+                                            @elseif ($d20->status == "rata-rata")
+                                            <span class="badge bg-warning">Rata - rata</span>
+                                            @else
+                                            <span class="badge bg-danger">Di bawah rata - rata</span>
+                                            @endif
+                                        </td>
+                                    </tr>
+                                    @empty
+                                    <tr>
+                                        <td colspan="4" class="text-center table-danger">Tidak ada data</td>
+                                    @endforelse
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                </section>
+            </div>
+        </div>
 
     </div>
 </div>
