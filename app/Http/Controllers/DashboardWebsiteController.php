@@ -48,7 +48,6 @@ class DashboardWebsiteController extends Controller
     public function petaJumlahPengangguran()
     {
         $data = Pengangguran::all();
-        $data2016 = Pengangguran::where('tahun', '2016')->get();
         $data2017 = Pengangguran::where('tahun', '2017')->get();
         $data2018 = Pengangguran::where('tahun', '2018')->get();
         $data2019 = Pengangguran::where('tahun', '2019')->get();
@@ -56,7 +55,6 @@ class DashboardWebsiteController extends Controller
         return view('peta.jumlahpengangguran.jumlahpengangguran', [
             'title' => 'Peta Jumlah Pengangguran di Jawa Barat Tahun 2017 - 2020',
             'data' => $data,
-            'data2016' => $data2016,
             'data2017' => $data2017,
             'data2018' => $data2018,
             'data2019' => $data2019,
