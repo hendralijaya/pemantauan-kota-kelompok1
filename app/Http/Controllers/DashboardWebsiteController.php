@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Main;
 use App\Models\Dashboard;
+use App\Models\Pengangguran;
 use Illuminate\Http\Request;
 use App\Models\AngkaHarapanHidup;
 use Illuminate\Support\Facades\DB;
@@ -29,12 +30,38 @@ class DashboardWebsiteController extends Controller
 
     public function petaJumlahPenduduk()
     {
-        return view('peta.jumlahpenduduk.jumlahpenduduk', ['title' => 'Peta Jumlah Pengangguran di Jawa Barat Tahun 2016 - 2020']);
+        $data2016 = DB::select('SELECT nama_kabupaten_kota, jumlah_penduduk, tahun, CASE WHEN jumlah_penduduk > 1729984.04 THEN "Diatas rata-rata" WHEN jumlah_penduduk = 1729984.04 THEN "Rata-rata" WHEN jumlah_penduduk < 1729984.04 THEN "Dibawah rata-rata" END AS STATUS FROM main WHERE nama_kabupaten_kota NOT IN(SELECT nama_kabupaten_kota FROM main WHERE tahun = "2016" AND nama_kabupaten_kota = "Jawa Barat") ORDER BY tahun ASC, jumlah_penduduk DESC');
+        $data2017 = DB::select('SELECT nama_kabupaten_kota, jumlah_penduduk, tahun, CASE WHEN jumlah_penduduk > 1754792.19 THEN "Diatas rata-rata" WHEN jumlah_penduduk = 1754792.19 THEN "Rata-rata" WHEN jumlah_penduduk < 1754792.19 THEN "Dibawah rata-rata" END AS STATUS FROM main WHERE nama_kabupaten_kota NOT IN(SELECT nama_kabupaten_kota FROM main WHERE tahun = "2017" AND nama_kabupaten_kota = "Jawa Barat") ORDER BY tahun ASC, jumlah_penduduk DESC');
+        $data2018 = DB::select('SELECT nama_kabupaten_kota, jumlah_penduduk, tahun, CASE WHEN jumlah_penduduk > 1779178.78 THEN "Diatas rata-rata" WHEN jumlah_penduduk = 1779178.78 THEN "Rata-rata" WHEN jumlah_penduduk < 1779178.78 THEN "Dibawah rata-rata" END AS STATUS FROM main WHERE nama_kabupaten_kota NOT IN(SELECT nama_kabupaten_kota FROM main WHERE tahun = "2018" AND nama_kabupaten_kota = "Jawa Barat") ORDER BY tahun ASC, jumlah_penduduk DESC');
+        $data2019 = DB::select('SELECT nama_kabupaten_kota, jumlah_penduduk, tahun, CASE WHEN jumlah_penduduk > 1803105.96 THEN "Diatas rata-rata" WHEN jumlah_penduduk = 1803105.96 THEN "Rata-rata" WHEN jumlah_penduduk < 1803105.96 THEN "Dibawah rata-rata" END AS STATUS FROM main WHERE nama_kabupaten_kota NOT IN(SELECT nama_kabupaten_kota FROM main WHERE tahun = "2019" AND nama_kabupaten_kota = "Jawa Barat") ORDER BY tahun ASC, jumlah_penduduk DESC');
+        $data2020 = DB::select('SELECT nama_kabupaten_kota, jumlah_penduduk, tahun, CASE WHEN jumlah_penduduk > 1826544.89 THEN "Diatas rata-rata" WHEN jumlah_penduduk = 1826544.89 THEN "Rata-rata" WHEN jumlah_penduduk < 1826544.89 THEN "Dibawah rata-rata" END AS STATUS FROM main WHERE nama_kabupaten_kota NOT IN(SELECT nama_kabupaten_kota FROM main WHERE tahun = "2020" AND nama_kabupaten_kota = "Jawa Barat") ORDER BY tahun ASC, jumlah_penduduk DESC');
+        return view('peta.jumlahpenduduk.jumlahpenduduk', [
+            'title' => 'Peta Jumlah Pengangguran di Jawa Barat Tahun 2016 - 2020',
+            'data2016' => $data2016,
+            'data2017' => $data2017,
+            'data2018' => $data2018,
+            'data2019' => $data2019,
+            'data2020' => $data2020
+        ]);
     }
 
     public function petaJumlahPengangguran()
     {
-        return view('peta.jumlahpengangguran.jumlahpengangguran', ['title' => 'Peta Jumlah Pengangguran di Jawa Barat Tahun 2017 - 2020']);
+        $data = Pengangguran::all();
+        $data2016 = Pengangguran::where('tahun', '2016')->get();
+        $data2017 = Pengangguran::where('tahun', '2017')->get();
+        $data2018 = Pengangguran::where('tahun', '2018')->get();
+        $data2019 = Pengangguran::where('tahun', '2019')->get();
+        $data2020 = Pengangguran::where('tahun', '2020')->get();
+        return view('peta.jumlahpengangguran.jumlahpengangguran', [
+            'title' => 'Peta Jumlah Pengangguran di Jawa Barat Tahun 2017 - 2020',
+            'data' => $data,
+            'data2016' => $data2016,
+            'data2017' => $data2017,
+            'data2018' => $data2018,
+            'data2019' => $data2019,
+            'data2020' => $data2020
+        ]);
     }
 
     public function petaJumlahPendudukMiskin()
