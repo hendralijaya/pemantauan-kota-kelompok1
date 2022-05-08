@@ -105,9 +105,11 @@
                 Contohnya adalah Kota Bogor dan Kota Banjar dapat terlihat jelas perbedaan jumlah penduduknya, maka dari itu berikut
                 Saran / solusi dari kami untuk pemerintah dalam menangani jumlah penduduk yang tidak merata adalah sebagai berikut:
                 <ol>
-                    <li> Membuat kementrian atau lembaga khusus yang menangani tentang kependudukan </li>
+                    <li> Mengatur keseimbangan kepadatan penduduk dengan cara pemberlakuan program Keluarga Berencana(KB) demi menghindari lonjakan jumlah penduduk </li>
                     <li> Meningkatkan kualitas pendidikan khususnya tentang kependudukan </li>
+                    <li> Menyediakan pelatihan dan meningkatkan sarana dan prasarana pendidikan sebagai media belajar bagi generasi yang akan datang </li>
                     <li> Pemerintah menyalurkan anggaran yang lebih besar untuk  meningkatkan kesehatan, kesejahteraan, dan pendidikan penduduk sehingga SDM dapat meningkat </li>
+                    <li> Pemerataan pembangunan infrastuktur di seluruh daerah Jawa Barat untuk memperlancar transmigrasi penduduk </li>
                 </ol>
             </p>
         </div>
