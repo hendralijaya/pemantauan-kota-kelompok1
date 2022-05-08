@@ -112,7 +112,7 @@
         <div class="col-12" style="margin-top: 30px">
             <h4>Detail</h4>
             <p style="text-align: justify">
-                Berdasarkan hasil pengumpulan data pengangguran provinsi Jawa Barat dari tahun 2016 sampai tahun 2019, angka
+                Berdasarkan hasil pengumpulan data pengangguran provinsi Jawa Barat dari tahun 2017 sampai tahun 2019, angka
                 pengangguran masih tergolong stabil. Meskipun sedikit meningkat, tetapi pada tahun 2020 pertumbuhan pengangguran
                 meningkat sangat pesat. Hal ini disebabkan oleh pandemi COVID-19 yang melanda sehingga banyak perusahaan yang tutup
                 (gulung tikar), melakukan PHK besar besaran dan banyak usaha yang tidak boleh dibuka seperti hotel, pelabuhan, restoran
