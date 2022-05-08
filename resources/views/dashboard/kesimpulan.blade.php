@@ -94,6 +94,8 @@
                     covid-19 menyerang Indonesia, angka kemiskinan pada tahun tersebut langsung meroket dikarenakan banyak pekerja yang di
                     PHK dan banyak usaha-usaha yang bangkrut karena tidak bisa menjalankan kegiatan ekonominya.
                 </p>
+
+
                 <br>
             </div>
             {{-- Analisis Penduduk Miskin dan Angka Harapan Hidup Ends --}}
@@ -330,28 +332,26 @@
                     dan angka harapan hidup. Kami sebagai peneliti memiiki beberapa solusi dalam persoalan tersebut sebagai
                     berikut:</p>
                 <ol>
-                    <b>Penduduk Miskin dan Angka Harapan Hidup</b>
-                    <li>Membangun posko kesehatan di tempat yang jauh jangkauannya ke rumah sakit</li>
-                    <li>Membangun posko kesehatan gratis dengan mengumpulkan dana dari donatur</li>
-                </ol>
+                    <li>Membuat serta meningkatkan sarana dan prasarana bagian kesehatan pada wilayah yang belum terjangkau.</li>
+                    <li>Pemerintah menyalurkan anggaran yang lebih besar untuk meningkatkan kesehatan, kesejahteraan, dan pendidikan penduduk sehingga SDM dapat meningkat </li>
 
-                <ol>
-                    <b>Penduduk Miskin dan Jumlah Pengangguran</b>
+
+                    <li>Melakukan sosialisasi kesadaran masyarakat kurang mampu untuk mengejar kemakmuran</li>
+                    <li>
+                        Membuat sistem informasi pengetasan kemiskinan untuk melakukan monitoring, menganalisa efektivitas program pemerintah dan melakukan
+                        kerja sama dengan BUMN maupun BUMS baik untuk memberikan pelatihan kerja serta untuk mendistribusikan produk dari usaha yang diberdayakan.
+                    </li>
+
+                    <li>Membuka sekolah gratis ke tempat yang perekonomiannya lebih rendah</li>
+
                     <li>Menciptakan lapangan kerja yang luas untuk warga</li>
                     <li>Pembatasan pajak dan retribusi daerah yg dapat merugikan usaha lokal dan warga daerah</li>
-                    <li>Pemberlakuan atau penyediaan pinjaman modal atau dana kepada warga</li>
-                </ol>
 
-                <ol>
-                    <b>Kepadatan Penduduk</b>
                     <li>Mengatur keseimbangan kepadatan penduduk dengan cara pemberlakuan program Keluarga Berencana(KB) demi menghindari lonjakan jumlah penduduk</li>
                     <li>Menyediakan pelatihan dan meningkatkan sarana dan prasarana pendidikan sebagai media belajar bagi generasi yang akan datang</li>
                     <li>Pemerataan pembangunan infrastuktur di seluruh daerah Jawa Barat untuk memperlancar transmigrasi penduduk</li>
-                    <li>Membuat sistem informasi kepadatan penduduk untuk memantau serta memonitoring efektifitas program</li>
                 </ol>
             </div>
-
-
         </div>
     </div>
 @endsection

@@ -106,7 +106,7 @@
                 Saran / solusi dari kami untuk pemerintah dalam menangani jumlah penduduk yang tidak merata adalah sebagai berikut:
                 <ol>
                     <li> Membuat kementrian atau lembaga khusus yang menangani tentang kependudukan </li>
-                    <li> Meningkatkan Kualitas Pendidikan khususnya tentang kependudukan </li>
+                    <li> Meningkatkan kualitas pendidikan khususnya tentang kependudukan </li>
                     <li> Pemerintah menyalurkan anggaran yang lebih besar untuk  meningkatkan kesehatan, kesejahteraan, dan pendidikan penduduk sehingga SDM dapat meningkat </li>
                 </ol>
             </p>

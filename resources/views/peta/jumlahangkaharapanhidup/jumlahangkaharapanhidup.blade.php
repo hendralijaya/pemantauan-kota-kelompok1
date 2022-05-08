@@ -117,8 +117,16 @@
                 <ol>
                     <li>Membuat serta meningkatkan sarana dan prasarana bagian kesehatan pada wilayah yang belum terjangkau.</li>
                     <li>Memeriksa secara berkala barang yang diperjualbelikan dengan titik fokus pada kelayakan dan kehigienis demi meningkatan kesehatan masyarakat.</li>
+                    <li>Membangun posko kesehatan di tempat yang jauh jangkauannya ke rumah sakit</li>
+                    <li>Membangun posko kesehatan gratis dengan mengumpulkan dana dari donatur</li>
                     <li>Memeriksa secara berkala tempat tinggal masyarakat setempat dari aspek kelayakan dan kebersihan tempat untuk ditinggali.</li>
                     <li>Memberikan bantuan kepada masyarakat yang membutuhkan dalam segi sandang, pangan, dan papan.</li>
+                </ol>
+
+                <p><b>Link berita bisa dilihat disini</b></p>
+                <ol>
+                    <li><a href="https://opendata.jabarprov.go.id/id/visualisasi/visualisasi-jumlah-fasilitas-kesehatan-di-provinsi-jawa-barat-tahun-2020"><b>Visualisasi Jumlah Fasilitas Kesehatan Di Provinsi Jawa Barat Tahun 2020</b></a></li>
+                    <li><a href="https://e-renggar.kemkes.go.id/file2018/e-performance/1-029015-2tahunan-467.pdf"><b>Laporan Kinerja Instansi Pemerintah Jawa Barat 2018</b></a></li>
                 </ol>
             </p>
         </div>
