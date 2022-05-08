@@ -89,7 +89,7 @@
                     <li>Mengetahui dan memberikan solusi terhadap masalah kemiskinan.</li>
                     <li>Mengetahui perbandingan antara angka kemiskinan dan angka harapan hidup.</li>
                     <li>Mengetahui pengaruh jumlah pengangguran terhadap angka kemiskinan.</li>
-                    <li>mengetahui dan memberikan solusi untuk menanggulangi masalah kepadatan penduduk di Jawa Barat.</li>
+                    <li>Mengetahui dan memberikan solusi untuk menanggulangi masalah kepadatan penduduk di Jawa Barat.</li>
                 </ol>
             </p>
         </div>
