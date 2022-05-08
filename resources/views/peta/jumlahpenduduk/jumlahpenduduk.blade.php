@@ -121,25 +121,25 @@
         <div class="col-12" style="margin-top: 30px">
             <h4>Detail</h4>
             <p style="text-align: justify">
-                Berdasarkan data visualisasi diatas, jumlah penduduk di tiap wilayah di Jawa Barat mengalami peningkatan secara
-                signifikan, dimulai dari tahun 2016 hingga 2020. Peningkatan penduduk ini dipengaruhi oleh beberapa faktor seperti
-                banyaknya angka kelahiran dan sedikitnya angka kematian serta meningkatnya migrasi masuk di Jawa Barat.
+                Berdasarkan data visualisasi diatas, kepadatan penduduk di tiap wilayah di Jawa Barat mengalami peningkatan yang cukup
+                signifikan, dimulai dari tahun 2016 hingga 2020. Peningkatan kepadatan penduduk ini dipengaruhi oleh beberapa faktor
+                seperti naiknya angka kelahiran dan migrasi masuk di Jawa Barat serta menurunnya angka kematian.
             </p>
 
             <p style="text-align: justify">
-                Dalam kurun waktu tersebut, kota Bogor merupakan kota yang memiliki jumlah peningkatan penduduk terbesar diantara kota
-                atau kabupaten di Jawa Barat lainnya dan kota Banjar adalah kota dengan jumlah peningkatan penduduk terkecil.
+                Dalam kurun waktu tersebut, kota Cimahi merupakan kota yang mengalami kepadatan penduduk tertinggi diantara kota atau
+                kabupaten di Jawa Barat lainnya sedangkan kabupaten pangandaran merupakan kabupaten/kota dengan kepadatan penduduk terendah.
             </p>
 
             <p style="text-align: justify">
-                Namun, berdasarkan data visualisasi diatas, dapat dilihat bahwa jumlah penduduk di Jawa Barat masih kurang merata.
-                Contohnya adalah Kota Bogor dan Kota Banjar dapat terlihat jelas perbedaan jumlah penduduknya, maka dari itu berikut
-                Saran / solusi dari kami untuk pemerintah dalam menangani jumlah penduduk yang tidak merata adalah sebagai berikut:
+                Dari visualisasi garis diatas, dapat dilihat bahwa kepadatan penduduk di Jawa Barat sangatlah kurang merata. Contohnya adalah Kota
+                Cimahi dan Kabupaten Pangandaran dapat terlihat jelas perbedaan kepadatan penduduknya, maka dari itu berikut saran / solusi dari
+                kami untuk pemerintah dalam menangani jumlah penduduk yang tidak merata adalah sebagai berikut:
                 <ol>
                     <li> Mengatur keseimbangan kepadatan penduduk dengan cara pemberlakuan program Keluarga Berencana(KB) demi menghindari lonjakan jumlah penduduk </li>
                     <li> Meningkatkan kualitas pendidikan khususnya tentang kependudukan </li>
                     <li> Menyediakan pelatihan dan meningkatkan sarana dan prasarana pendidikan sebagai media belajar bagi generasi yang akan datang </li>
-                    <li> Pemerintah menyalurkan anggaran yang lebih besar untuk  meningkatkan kesehatan, kesejahteraan, dan pendidikan penduduk sehingga SDM dapat meningkat </li>
+                    <li> Pemerintah menyalurkan anggaran yang lebih besar untuk meningkatkan kesehatan, kesejahteraan, dan pendidikan penduduk sehingga SDM dapat meningkat </li>
                     <li> Pemerataan pembangunan infrastuktur di seluruh daerah Jawa Barat untuk memperlancar transmigrasi penduduk </li>
                 </ol>
             </p>
