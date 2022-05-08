@@ -16,7 +16,7 @@
         <div class="row">
             {{-- Analisis Penduduk Miskin dan Angka Harapan Hidup Starts --}}
             <div class="col-12 mt-3 mb-1">
-                <h4 class="section-title">Penduduk Miskin dan Angka Harapan Hidup</h4>
+                <h4 class="section-title">Penduduk Miskin dan Angka Harapan Hidup di Jawa Barat</h4>
             </div>
             <div class="col-6">
                 <div class='tableauPlaceholder' id='viz1651204402505' style='position: relative; border-radius: 10px;'>
@@ -330,9 +330,24 @@
                     dan angka harapan hidup. Kami sebagai peneliti memiiki beberapa solusi dalam persoalan tersebut sebagai
                     berikut:</p>
                 <ol>
+                    <b>Penduduk Miskin dan Angka Harapan Hidup</b>
+                    <li>Membangun posko kesehatan di tempat yang jauh jangkauannya ke rumah sakit</li>
+                    <li>Membangun posko kesehatan gratis dengan mengumpulkan dana dari donatur</li>
+                </ol>
+
+                <ol>
+                    <b>Penduduk Miskin dan Jumlah Pengangguran</b>
                     <li>Menciptakan lapangan kerja yang luas untuk warga</li>
                     <li>Pembatasan pajak dan retribusi daerah yg dapat merugikan usaha lokal dan warga daerah</li>
-                    <li>Pemberlakuan/Penyediaan pinjaman modal atau dana kepada warga</li>
+                    <li>Pemberlakuan atau penyediaan pinjaman modal atau dana kepada warga</li>
+                </ol>
+
+                <ol>
+                    <b>Kepadatan Penduduk</b>
+                    <li>Mengatur keseimbangan kepadatan penduduk dengan cara pemberlakuan program Keluarga Berencana(KB) demi menghindari lonjakan jumlah penduduk</li>
+                    <li>Menyediakan pelatihan dan meningkatkan sarana dan prasarana pendidikan sebagai media belajar bagi generasi yang akan datang</li>
+                    <li>Pemerataan pembangunan infrastuktur di seluruh daerah Jawa Barat untuk memperlancar transmigrasi penduduk</li>
+                    <li>Membuat sistem informasi kepadatan penduduk untuk memantau serta memonitoring efektifitas program</li>
                 </ol>
             </div>
 

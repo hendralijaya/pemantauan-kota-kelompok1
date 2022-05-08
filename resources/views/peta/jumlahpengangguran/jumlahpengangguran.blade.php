@@ -126,6 +126,17 @@
                 penganggurannya meningkat tetapi tidak terlalu drastis. Berdasarkan data yang ada, kota tersebut hanya mengalami sedikit
                 peningkatan mulai dari 11 ribu pada tahun 2019 menjadi 12 ribu pada tahun 2020.
             </p>
+
+            <p style="text-align: justify">
+                Namun, berdasarkan data visualisasi diatas, Saran atau solusi dari kami untuk pemerintah adalah sebagai berikut:
+                <ol>
+                    <li>Membuka lahan pekerjaan baru di tempat yang memiliki lahan pekerjaan yang sedikit</li>
+                    <li>Membuka sekolah gratis ke tempat yang perekonomiannya lebih rendah</li>
+                    <li>Mendirikan pusat-pusat latihan kerja ke tempat yang tingkat pendidikannya rendah</li>
+                    <li>Meningkatkan transmigrasi ke tempat yang lebih sepi tetapi lapangan pekerjaannya banyak</li>
+                </ol>
+            </p>
+
         </div>
         <div class="col-12" style="margin-top: 30px">
             <div class="page-heading">
@@ -229,8 +240,8 @@
                                     @endforelse
                                     @forelse ( $data2019 as $d19)
                                     <tr class="table-light">
-                                        <td>{{ $loop->iteration + 27 }}</td>
                                         <td>{{ $d19->nama_kabupaten_kota }}</td>
+                                        <td>{{ $d19->persentase_tingkat_pengangguran_terbuka . "%" }}</td>
                                         <td>{{ $d19->jumlah_pengangguran_angka }}</td>
                                         @forelse ( $data2018 as $d18)
                                             @if ($d19->nama_kabupaten_kota == $d18->nama_kabupaten_kota)
@@ -255,8 +266,8 @@
                                     @endforelse
                                     @forelse ( $data2020 as $d20)
                                     <tr class="table-light">
-                                        <td>{{ $loop->iteration+54 }}</td>
                                         <td>{{ $d20->nama_kabupaten_kota }}</td>
+                                        <td>{{ $d20->persentase_tingkat_pengangguran_terbuka . "%" }}</td>
                                         <td>{{ $d20->jumlah_pengangguran_angka }}</td>
                                         @forelse ( $data2019 as $d19)
                                             @if ($d20->nama_kabupaten_kota == $d19->nama_kabupaten_kota)

@@ -106,6 +106,57 @@
                 Kota Bogor merupakan kota yang memiliki jumlah angka kemiskinan tertinggi dengan total 465 ribu jiwa pada Tahun 2020 dan Kota
                 Banjar memiliki angka kemiskinan terendah dengan total 11 ribu jiwa pada Tahun 2020.
             </p>
+
+            <p style="text-align: justify">
+                Untuk mengatasi kemiskinan secara :
+                <ol>
+                    <li>
+                        <i>Long term</i> perspektif, yaitu pendidikan gratis seperti program Gubernur Jawa Barat,
+                        alokasi anggaran untuk jaminan kesehatan masyarakat kurang mampu melalui BPJS.
+                    </li>
+                    <li>
+                        <i>Mid term</i> perspektif, Membentuk balai pelatihan kerja dan pemberdayaan usaha guna meningkatkan pendapatan masyarakat.
+                    </li>
+                    <li>
+                        <i>Short term</i> prespektif, Memberikan Bantuan Sosial terutama untuk warga kurang mampu yang terdiri dari 13 program Pemerintah Daerah Jawa Barat,
+                        <ol>
+                            (1) PKH Reguler Triwulan 3;<br>
+                            (2) BNPT/Program Sembako Reguler;<br>
+                            (3) Bantuan Sosial Tunai;<br>
+                            (4) Bantuan Beras Cadangan Pemerintah untuk KPM PKH;<br>
+                            (5) Bantuan Beras Cadangan Pemerintah untuk BST;<br>
+                            (6) Tambahan Bantuan Beras Cadangan Pemerintah untuk Pemkab/Pemkot.<br>
+                            (7) Bantuan Beras 5 kilogram x 1 Bulan dari Dana Non-APBN dari Kantor Sekpres.<br>
+                            (8) Bansos Pemkab dan Pemkot (Kota Bandung, Kabupaten Ciamis, dan Kabupaten Bogor);<br>
+                            (9) BLT Dana Desa;<br>
+                            (10) Bantuan Pelaku Usaha Mikro;<br>
+                            (11) Bantuan Diskon Listrik;<br>
+                            (12) Kartu Prakerja; dan<br>
+                            (13) Bantuan Subsidi Kuota Internet.<br>
+                        </ol>
+                    </li>
+                </ol>
+            </p>
+
+            <p style="text-align: justify">
+                Saran :
+                <ol>
+                    <li>Tetap melanjutkan program – program tersebut.</li>
+                    <li>Melakukan pembinaan terhadap  masyarakat kurang mampu melalui pelatihan kerja yang bekerja sama dengan BUMN atau BUMS</li>
+                    <li>Membina masyarakat kurang mampu untuk mengembangkan kekuatan produksi dengan bekerja sama dengan BUMN atau BUMS</li>
+                    <li>Melakukan sosialisasi kesadaran masyarakat kurang mampu untuk mengejar kemakmuran</li>
+                    <li>
+                        Membuat sistem informasi pengetasan kemiskinan untuk melakukan monitoring, menganalisa efektivitas program pemerintah dan melakukan
+                        kerja sama dengan BUMN maupun BUMS baik untuk memberikan pelatihan kerja serta untuk mendistribusikan produk dari usaha yang diberdayakan.
+                    </li>
+                </ol>
+
+                <p><b>Link berita bisa dilihat disini</b></p>
+                <ol>
+                    <li><a href="https://www.jabarprov.go.id/index.php/news/44094/2021/09/29/Gubernur-Jabar-Paparkan-Tiga-Solusi-Turunkan-Angka-Kemiskinan"><b>Link 1</b></a></li>
+                    <li><a href="https://www.republika.co.id/berita/qwdnje459/china-beberkan-strategi-entas-kemiskinan-selama-pandemi-part1"><b>Link 2</b></a></li>
+                </ol>
+            </p>
         </div>
 
         <div class="col-12" style="margin-top: 30px">
@@ -209,7 +260,7 @@
                             @endforelse
                             </tr>
                             @forelse ( $data2018 as $d18)
-                            <tr class="table-light text-center">
+                            <tr class="table-light">
                                 <td>{{ $d18->nama_kabupaten_kota }}</td>
                                 <td>{{ $d18->jumlah_penduduk_miskin }}</td>
                                 @forelse ( $data2017 as $d17)
@@ -235,7 +286,7 @@
                             @endforelse
                             </tr>
                             @forelse ( $data2019 as $d19)
-                            <tr class="table-light text-center">
+                            <tr class="table-light">
                                 <td>{{ $d19->nama_kabupaten_kota }}</td>
                                 <td>{{ $d19->jumlah_penduduk_miskin }}</td>
                                 @forelse ( $data2018 as $d18)
@@ -259,7 +310,7 @@
                                 <td colspan="4" class="text-center table-danger">Tidak ada data</td>
                             @endforelse
                             @forelse ( $data2020 as $d20)
-                        <tr class="table-light text-center">
+                        <tr class="table-light">
                             <td>{{ $d20->nama_kabupaten_kota }}</td>
                             <td>{{ $d20->jumlah_penduduk_miskin }}</td>
                             @forelse ( $data2019 as $d19)

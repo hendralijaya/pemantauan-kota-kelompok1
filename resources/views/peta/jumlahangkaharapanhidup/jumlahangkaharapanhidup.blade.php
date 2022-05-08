@@ -110,6 +110,17 @@
                 Tasikmalaya, diikuti dengan dua kabupaten wilayah di Jawa Barat yaitu kabupaten Majalengka dan Cianjur yang memiliki
                 angka harapan hidup sebesar 70 tahun.
             </p>
+
+            <p style="text-align: justify">
+                Namun, berdasarkan angka harapan hidup pada tahun 2020, masih ada beberapa daerah yang angka harapan hidupnya berada di bawah rata-rata dari keseluruhan wilayah di Jawa Barat.
+                Berdasarkan data tersebut, saran dan solusi yang bisa diberikan adalah:
+                <ol>
+                    <li>Membuat serta meningkatkan sarana dan prasarana bagian kesehatan pada wilayah yang belum terjangkau.</li>
+                    <li>Memeriksa secara berkala barang yang diperjualbelikan dengan titik fokus pada kelayakan dan kehigienis demi meningkatan kesehatan masyarakat.</li>
+                    <li>Memeriksa secara berkala tempat tinggal masyarakat setempat dari aspek kelayakan dan kebersihan tempat untuk ditinggali.</li>
+                    <li>Memberikan bantuan kepada masyarakat yang membutuhkan dalam segi sandang, pangan, dan papan.</li>
+                </ol>
+            </p>
         </div>
 
         <div class="col-12" style="margin-top: 30px">

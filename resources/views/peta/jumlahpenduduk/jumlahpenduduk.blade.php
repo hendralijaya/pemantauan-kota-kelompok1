@@ -99,6 +99,17 @@
                 Dalam kurun waktu tersebut, kota Bekasi merupakan kota yang memiliki jumlah peningkatan penduduk terbesar diantara kota
                 atau kabupaten di Jawa Barat lainnya dan kota Banjar adalah kota dengan jumlah peningkatan penduduk terkecil.
             </p>
+
+            <p style="text-align: justify">
+                Namun, berdasarkan data visualisasi diatas, dapat dilihat bahwa jumlah penduduk di Jawa Barat masih kurang merata.
+                Contohnya adalah Kota Bogor dan Kota Banjar dapat terlihat jelas perbedaan jumlah penduduknya, maka dari itu berikut
+                Saran / solusi dari kami untuk pemerintah dalam menangani jumlah penduduk yang tidak merata adalah sebagai berikut:
+                <ol>
+                    <li> Membuat kementrian atau lembaga khusus yang menangani tentang kependudukan </li>
+                    <li> Meningkatkan Kualitas Pendidikan khususnya tentang kependudukan </li>
+                    <li> Pemerintah menyalurkan anggaran yang lebih besar untuk  meningkatkan kesehatan, kesejahteraan, dan pendidikan penduduk sehingga SDM dapat meningkat </li>
+                </ol>
+            </p>
         </div>
 
         <div class="col-12" style="margin-top: 30px">
