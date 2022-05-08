@@ -78,7 +78,7 @@
             <h4 class="section-title">Tentang Proyek</h4>
         </div>
         <div class="col-12" style="margin-bottom:30px;">
-            <h6>Profil Provinsi Jawa Barat</h6>
+            <h6>Tujuan Proyek</h6>
             <p class="text-justify" style="text-align:justify">
                 Projek ini bertujuan untuk melakukan pemantauan di provinsi Jawa Barat pada domain Society
                 dengan 4 aspek berupa aspek kemiskinan, angka harapan hidup, angka pengangguran, dan
