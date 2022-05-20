@@ -184,6 +184,71 @@
                 </section>
             </div>
         </div>
+
+        <div class="col-sm-6 col-12">
+            <h4>Tertinggi</h4>
+            <p style="text-align: justify">Alasan kota Bekasi menjadi Kota dengan angka harapan hidup terringgi, adalah sebagai berikut:</p>
+            <ol style="text-align: justify">
+                <li>
+                    Upaya-upaya yang dilakukan pemerintah untuk meningkatkan kinerja pemerintahan dalam berbagai aspek yang telah mendorong peningkatan kualitas kehidupan masyarakat di Kota Bekasi:
+                    <ul>
+                        <li>
+                            Pelaksanaan urusan wajib maupun urusan pilihan,
+                        </li>
+                        <li>
+                            Pelaksanaan urusan yang diurus langsung dalam tataran otonomi maupun dekonsentrasi dan tugas pembantuan,
+                        </li>
+                        <li>
+                            Hasil partisipasi masyarakat dalam kegiatan pembangunan,
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    Perbaikan layanan kesehatan yang dapat mencakup semua kalangan.<br>
+                    Pelaksana Tugas Kepala Dinas Kesehatan Kabupaten Temanggung, Dwi Sukarmei mengatakan peningkatan angka harapan hidup ini dipengaruhi perbaikan layanan kesehatan yang dapat menyentuh seluruh lapisan masyarakat. Akses tersebut ditopang berbagai program pemerintah, seperti Gerakan Masyarakat Sehat (Germas) dan juga banyaknya program inovasi daerah, seperti gerakan makan telur dan minum susu untuk menghindari tengkes.
+                </li>
+            </ol>
+
+            <h6>Link</h6>
+            <ol style="text-align: justify">
+                <li>
+                    https://voi.id/berita/143305/warga-temanggung-berbahagialah-angka-harapan-hidup-rata-rata-75-64-tahun-dan-jadi-yang-tertinggi-di-indonesia                </li>
+                </li>
+                <li>
+                    http://mpp.bekasikota.go.id/270620/assets/images/upload/profil-upload.pdf
+                </li>
+            </ol>
+        </div>
+
+        <div class="col-sm-6 col-12">
+            <h4>Terendah</h4>
+            <p style="text-align: justify">Alasan kabupaten Tasikmalaya menjadi Kota dengan angka harapan hidup terendah, adalah sebagai berikut:</p>
+            <ol style="text-align: justify">
+                <li>
+                    Indeks Pembangunan Manusia(IPM) rendah <br>
+                    Rendahnya angka harapan hidup pada kabupaten Tasikmalaya adalah karena Indeks Pembangunan Manusia(IPM) kabupaten Tasikmalaya yang masih tergolong rendah. Menurut data BPS Kabupaten Tasikmalaya yang dirilis pada tanggal 02 Oktober 2019, IPM di Kabupaten Tasikmalaya berada di urutan terendah kedua, setelah Kabupaten Cianjur, se-Provinsi Jawa Barat sebesar 65,00. IPM sendiri dipengaruhi oleh tingkat pendidikan, tingkat kesehatan, dan tingkat pendapatan. Faktor pendukung IPM tersebut berasal dari indikator daya beli masyarakat yang disebabkan gaya hidup masyarakatnya yang konsumtif.
+                    <br>
+                    Rincian dari hasil IPM, antara lain:
+                    <ul>
+                        <li>Angka Harapan Hidup 68,96 tahun, </li>
+                        <li>Harapan Lama Sekolah mencapai 12,48 tahun atau setara dengan pendidikan D1, </li>
+                        <li>Rata-rata Lama Sekolah 7,13 atau setara dengan SMP kelas 7, dan </li>
+                        <li>Pengeluaran Perkapita setiap tahun sebesar 7,76 Juta Rupiah.</li>
+                    </ul>
+                </li>
+            </ol>
+
+            <h6>Link</h6>
+            <ol style="text-align: justify">
+                <li>
+                    https://kapol.id/ipm-kabupaten-tasikmalaya-anjlok-bom-waktu-yang-harus-segera-dihentikan/
+                </li>
+                <li>
+                    https://republika.co.id/berita/ogh64f284/network
+                </li>
+            </ol>
+        </div>
+
     </div>
 </div>
 

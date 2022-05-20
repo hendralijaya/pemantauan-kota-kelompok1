@@ -276,6 +276,83 @@
             </div>
         </div>
 
+        <hr>
+        <br>
+
+        <div class="row">
+            <div class="col-sm-6 col-12">
+                <h4>Tertinggi</h4>
+                <p style="text-align: justify">Alasan Cimahi menjadi Kota dengan kepadatan penduduk</p>
+                <ol style="text-align: justify">
+                    <li>
+                        Angka Kelahiran<br>
+                        Menurut Indra sebagai kepala seksi kesehatan keluarga dan gizi pada Dinas
+                        Kesehatan kota Cimahi mengatakan bahwa jumlah angka kelahiran di kota Cimahi mencapai 5.909 anak
+                        tercatat hingga Juli 2021
+                    </li>
+                    <li>
+                        Letak Geografis<br>
+                        Dilihat dari fungsi kota dan letak geografis yang berbatasan langsung dengan Kota dan Kab. Bandung,
+                        Kota Cimahi memiliki peran dan posisi yang cukup strategis. Kondisi tersebut juga mendorong
+                        lajunya tingkat pertumbuhan kota yang menimbulkan berbagai permasalahan klasik,
+                        sebagaimana dialami oleh kota-kota yang tengah berkembang.
+                    </li>
+                    <li>
+                        Migrasi/Perpindahan penduduk<br>
+                        Di Kota Cimahi selalu terjadi migrasi/perpindahan penduduk setiap tahunnya walau agak melamban dikarenakan dampak Pandemi Covid-19.
+                        Menurut Ajay sebagai walikota Cimahi mengatakan bahwa kepadatan penduduk di kota Cimahi terjadi karena Wilayahnya yang terbatas,
+                        namun, daya tarik untuk ditinggali tinggi terlebih lagi banyak masyarakat yang kerja di Bandung tinggal di Cimahi
+                    </li>
+                </ol>
+
+                <h6>Link</h6>
+                <ol style="text-align: justify">
+                    <li>
+                        https://jabarekspres.com/berita/2021/09/06/penduduk-kota-cimahi-kian-padat-ini-sebabnya/
+                    </li>
+                    <li>
+                        https://jabarprov.go.id/index.php/pages/id/1064#:~:text=Tingkat%20per
+                        tumbuhan%20penduduk%20mencaapai%202,-rata%201.331%20jiwa%2Fkm
+                    </li>
+                    <li>
+                        https://cimahikota.go.id/index.php/berita/detail/81168-cimahi-jadi-magnet-migrasi-yang-berimbas-terhadap-padatnya-penduduk
+                    </li>
+                </ol>
+            </div>
+
+            <div class="col-sm-6 col-12">
+                <h4>Terendah</h4>
+                <p style="text-align: justify">Alasan Kabupaten Pangandaran menjadi kora dengan kepadatan penduduk terendah</p>
+                <ol style="text-align: justify">
+                    <li>
+                        Lapangan Pekerjaan/Mata Pencaharian<br>
+                        Penduduk di Kawasan Pusat Pertumbuhan Pangandaran dominan bermata pencaharian sebagai petani, pedagang, dan peternak .
+                        Mata Pencaharian jenis ini melibatkan hal individu sehingga tak banyak lapangan pekerjaan di Kabupaten Pangandaran
+                        sehingga banyak penduduk dari kabupaten Pangandaran lebih memilih untuk migrasi dan juga sedikitnya migrasi yang terjadi di Kabupaten Pangandaran ini
+                    </li>
+                    <li>
+                        Letak Geografis dan Ketenagakerjaan<br>
+                        Dilihat dari fungsi kora dan letak geografis kabupaten pangandaran ini terletak dekat perbatasan pesisir pantai/samudra Hindia,
+                        tempat ini banyak dijadikan sebagai tempat pariwisata. Namun dikarenakan tempatnya yang berdekatan dengan pesisir pantai/samudra Hindia
+                        membuat para penduduk khawatir tentang pekerjaan yang mereka dapatkan.
+                    </li>
+                </ol>
+
+                <h6>Link</h6>
+                <ol style="text-align: justify">
+                    <li>
+                        http://bappeda.jabarprov.go.id/wp-content/uploads/2017/03/Laporan-Akhir-Kebutuhan-Inv-Pangandaran-Raya.pdf
+                    </li>
+                    <li>
+                        https://elibrary.unikom.ac.id/id/eprint/1956/9/UNIKOM_SINDY%20SINTIA.
+                        N_BAB%20III.pdf
+                    </li>
+                </ol>
+
+            </div>
+
+        </div>
+
     </div>
 </div>
 

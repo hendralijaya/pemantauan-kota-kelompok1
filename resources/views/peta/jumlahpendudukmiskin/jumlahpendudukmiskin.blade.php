@@ -342,6 +342,71 @@
             </div>
         </div>
 
+        <hr>
+        <br>
+
+        <div class="col-sm-6 col-12">
+            <h4>Tertinggi</h4>
+            <p style="text-align: justify">Alasan Kota Tasikmalaya memiliki presentase kemiskinan tertinggi:</p>
+            <ol style="text-align: justify">
+                <li>
+                    Dampak pandemi COVID-19. Kegiatan ekonomi berhenti bergerak sehingga terjadi penurunan tingkat produktivitas baik secara individu maupun perusahaan yang mengakibatkan peningkatan jumlah penduduk kurang mampu.
+                </li>
+                <li>
+                    Pemekaran di Kota Tasikmalaya menjadi Kabupaten dan Kota. Lin mengatakan bahwa kenaikan angka kemiskinan di kota Tasikmalaya diakibatkan oleh pembentukan kota yang mencakup lima kecamatan yang statusnya masih pedesaan. Menurutnya Pemerintah Kota Tasikmalaya perlu melakukan akselerasi ekonomi di kecamatan yang masih serupa dengan pedesaan.
+                </li>
+                <li>
+                    Terdapat banyak warga yang bekerja pada sektor informal, seperti pedagang kaki lima.
+                </li>
+                <li>
+                    Upah buruh yang dibawah UMR. <br>
+                    Adi Menyimpulkan bahwa rendahnya daya beli, pendapatan dan kurangnya lapangan kerja menjadi alasan utama kota tasikmalaya masuk dalam kategori miskin.
+                </li>
+            </ol>
+
+            <h6>Link</h6>
+            <ol style="text-align: justify">
+                <li>
+                    https://data.tasikmalayakota.go.id/infografis/tingkat-kemiskinan-di-kota-tasikmalaya-tahun-2021/
+                </li>
+                <li>
+                    https://jabar.tribunnews.com/2019/11/08/tercatat-masih-banyak-warga-miskin-di-kota-tasikmalaya-ini-alasannya-menurut-bps
+                </li>
+                <li>
+                    https://nasional.tempo.co/read/543175/tasikmalaya-termiskin-di-jawa-barat
+                </li>
+            </ol>
+        </div>
+
+        <div class="col-sm-6 col-12">
+            <h4>Terendah</h4>
+            <p style="text-align: justify">Alasan Kota Depok memiliki presentase kemiskinan terendah:</p>
+            <ol style="text-align: justify">
+                <li>
+                    Kondisi pandemi COVID-19 berdampak pada kegiatan perekonomiannya, tetapi Pemerintah Kota Depok memiliki berbagai program pemulihan ekonomi yaitu:
+                    <ul>
+                        <li>5.000 wirausaha baru</li>
+                        <li>1.000 perempuan pengusaha</li>
+                        <li>Kartu Depok Sejahtera</li>
+                        <li>Menyelesaikan permasalahan ketidaksesuaian Angkatan kerja dan dunia kerja.</li>
+                    </ul>
+                </li>
+                <li>
+                    Index Pembangunan Manusia yang tertinggi ketiga setelah Kota Bandung dan Kota Bekasi, yaitu 81,37.
+                </li>
+                <li>
+                    Mencari modal melalui investasi untuk penyerapan tenaga kerja lokal.
+                </li>
+            </ol>
+
+            <h6>Link</h6>
+            <ol style="text-align: justify">
+                <li>
+                    https://berita.depok.go.id/pemerintahan/keren-kota-depok-catat-angka-kemiskinan-terendah-ketiga-se-indonesia-10684
+                </li>
+            </ol>
+        </div>
+
     </div>
 </div>
 @endsection

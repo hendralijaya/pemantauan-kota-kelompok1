@@ -297,6 +297,59 @@
                 </section>
             </div>
         </div>
+
+        <hr>
+        <br>
+
+        <div class="col-sm-6 col-12">
+            <h4>Tertinggi</h4>
+            <p style="text-align: justify">Alasan Bogor memiliki tingkat pengangguran tertinggi:</p>
+            <ol style="text-align: justify">
+                <li>
+                    Penurunan drastis angka penjualan UMKM.<br>
+                    Seperti, penurunan penjualan, permodalan, distribusi terhambat, kesulitan bahan baku, produksi menurun dan PHK buruh akibat dari pandemic COVID-19.
+                </li>
+                <li>
+                    Karena banyak pengangguran lulusan SMK yang menumpuk. Dulunya pemerintah membuat program sekolah-sekolah SMK yang  bertujuan untuk langsung kerja. Tetapi lulusannya lah yang sekarang menumpuk.
+                </li>
+            </ol>
+
+            <h6>Link</h6>
+            <ol style="text-align: justify">
+                <li>
+                    https://diskopukm.bogorkab.go.id/tantangan-dan-usaha-pemulihan-ekonomi-daerah-bagi-koperasi-usaha-mikro-kecil-dan-menengah-umkm-kabupaten-bogor-di-masa-pandemi-covid-19/
+                </li>
+                <li>
+                    https://bogor.ayoindonesia.com/berita-bogor/pr-31868381/Angka-Pengangguran-di-Kota-Bogor-Masih-Tinggi
+                </li>
+            </ol>
+        </div>
+
+        <div class="col-sm-6 col-12">
+            <h4>Terendah</h4>
+            <p style="text-align: justify">Alasan Pangandaran memliki tingkat pengangguran terendah di Jawa Barat</p>
+            <ol style="text-align: justify">
+                <li>
+                    Banyak wirausahawan pendatang di Pangandaran.
+                    Sebagai kota baru, banyak peluang usaha yang dapat buka di daerah baru ini.
+                </li>
+                <li>
+                    Adanya rencana KEK yang akan menimbulkan banyaknya hotel – hotel tradisional dan modern sehingga hal tersebut tidak menjadi sebuah ancaman bagi para pemilik wisma dan pondok yang berada di sekitar KEK.
+                </li>
+            </ol>
+
+            <h6>Link</h6>
+            <ol style="text-align: justify">
+                <li>
+                    https://news.detik.com/berita-jawa-barat/d-5893847/tingkat-pengangguran-di-pangandaran-terendah-di-jawa-barat
+                </li>
+                <li>
+                    https://elibrary.unikom.ac.id/id/eprint/1956/10/UNIKOM_SINDY%20SINTIA.
+                    N_BAB%20IV.pdf
+                </li>
+            </ol>
+        </div>
+
     </div>
 </div>
 
